@@ -1,0 +1,55 @@
+
+$ /Users/eruvaakhil/Downloads/wavelab_connected_project/.venv/bin/python -m src.train_mlp_grouped --data data/raw/WEC_Perth_49.csv --seed 21 --split-seed 42 --epochs 100 --output-dir results/grouped --model-dir models/grouped
+
+Device: cpu
+Dataset: data/raw/WEC_Perth_49.csv
+Rows: 36,043
+Unique layouts: 10,218
+Train rows: 25,372
+Validation rows: 5,321
+Test rows: 5,350
+Input dimensions: 98
+Target: Total_Power
+Inputs: coordinates only
+Epoch 001 | train MSE(scaled)=0.21968 | val MAE=25476.1 | best=25476.1
+Epoch 010 | train MSE(scaled)=0.04356 | val MAE=18236.6 | best=16857.1
+Epoch 020 | train MSE(scaled)=0.03360 | val MAE=18131.9 | best=15870.7
+Epoch 030 | train MSE(scaled)=0.02834 | val MAE=16616.9 | best=15870.7
+Epoch 040 | train MSE(scaled)=0.02769 | val MAE=15199 | best=15199
+Epoch 050 | train MSE(scaled)=0.02492 | val MAE=15472.6 | best=14966
+Epoch 060 | train MSE(scaled)=0.02331 | val MAE=14703.2 | best=14703.2
+Epoch 070 | train MSE(scaled)=0.02203 | val MAE=15172.9 | best=14250.6
+Epoch 080 | train MSE(scaled)=0.02199 | val MAE=16346.5 | best=14041.5
+Epoch 090 | train MSE(scaled)=0.02121 | val MAE=14836.5 | best=14041.5
+Early stopping at epoch 97; best epoch was 72.
+
+GROUPED TEST RESULTS
+dataset: data/raw/WEC_Perth_49.csv
+rows: 36043
+unique_layouts: 10218
+wec_count: 49
+input_dimensions: 98
+target_column: Total_Power
+split_method: layout_grouped
+train_rows: 25372
+validation_rows: 5321
+test_rows: 5350
+train_layouts: 7152
+validation_layouts: 1533
+test_layouts: 1533
+seed: 21
+split_seed: 42
+device: cpu
+best_epoch: 72
+best_validation_mae: 14041.5107421875
+test_mae: 15897.1455078125
+test_rmse: 27514.302898674356
+test_nmae: 0.004042078089633412
+test_r2: 0.9451532959938049
+test_inference_total_seconds: 0.0015334589999991266
+test_inference_ms_per_sample: 0.0002866278504671265
+
+Results saved to: /Users/eruvaakhil/Downloads/wavelab_connected_project/results/grouped
+Checkpoint saved to: /Users/eruvaakhil/Downloads/wavelab_connected_project/models/grouped/WEC_Perth_49_coordinate_mlp_grouped_seed21.pt
+
+Run finished with exit code 0.

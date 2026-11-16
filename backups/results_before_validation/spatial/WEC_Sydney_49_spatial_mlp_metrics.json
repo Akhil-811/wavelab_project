@@ -1,0 +1,22 @@
+{
+  "dataset": "data/raw/WEC_Sydney_49.csv",
+  "rows": 17964,
+  "unique_layouts": 4816,
+  "wec_count": 49,
+  "coordinate_input_dimensions": 98,
+  "spatial_feature_input_dimensions": 252,
+  "target_column": "Total_Power",
+  "split_method": "layout_grouped",
+  "train_rows": 12728,
+  "validation_rows": 2341,
+  "test_rows": 2895,
+  "seed": 42,
+  "best_epoch": 115,
+  "best_validation_mae": 4249.44580078125,
+  "test_mae": 4605.61865234375,
+  "test_rmse": 6496.553547843657,
+  "test_nmae": 0.0011426131830158419,
+  "test_r2": 0.991154670715332,
+  "test_inference_total_seconds": 0.0009788340000014273,
+  "test_inference_ms_per_sample": 0.0003381119170989386
+}

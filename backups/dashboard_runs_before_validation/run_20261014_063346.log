@@ -1,0 +1,127 @@
+
+$ /Users/eruvaakhil/Downloads/wavelab_connected_project/.venv/bin/python -m src.train_mlp_grouped --data data/raw/WEC_Perth_49.csv --seed 21 --split-seed 42 --epochs 5 --output-dir results/grouped --model-dir models/grouped
+
+Device: cpu
+Dataset: data/raw/WEC_Perth_49.csv
+Rows: 36,043
+Unique layouts: 10,218
+Train rows: 25,372
+Validation rows: 5,321
+Test rows: 5,350
+Input dimensions: 98
+Target: Total_Power
+Inputs: coordinates only
+Epoch 001 | train MSE(scaled)=0.21968 | val MAE=25476.1 | best=25476.1
+
+GROUPED TEST RESULTS
+dataset: data/raw/WEC_Perth_49.csv
+rows: 36043
+unique_layouts: 10218
+wec_count: 49
+input_dimensions: 98
+target_column: Total_Power
+split_method: layout_grouped
+train_rows: 25372
+validation_rows: 5321
+test_rows: 5350
+train_layouts: 7152
+validation_layouts: 1533
+test_layouts: 1533
+seed: 21
+split_seed: 42
+device: cpu
+best_epoch: 5
+best_validation_mae: 18074.712890625
+test_mae: 19276.81640625
+test_rmse: 30551.130650108516
+test_nmae: 0.004901408066957477
+test_r2: 0.9323779940605164
+test_inference_total_seconds: 0.0011718329999999
+test_inference_ms_per_sample: 0.00021903420560745793
+
+Results saved to: /Users/eruvaakhil/Downloads/wavelab_connected_project/results/grouped
+Checkpoint saved to: /Users/eruvaakhil/Downloads/wavelab_connected_project/models/grouped/WEC_Perth_49_coordinate_mlp_grouped_seed21.pt
+
+$ /Users/eruvaakhil/Downloads/wavelab_connected_project/.venv/bin/python -m src.train_spatial_mlp --data data/raw/WEC_Perth_49.csv --seed 21 --split-seed 42 --epochs 5 --output-dir results/spatial --model-dir models/spatial
+
+Device: cpu
+Building spatial features...
+Dataset: data/raw/WEC_Perth_49.csv
+Rows: 36,043
+Unique layouts: 10,218
+WEC count: 49
+Coordinate input dimensions: 98
+Spatial-feature input dimensions: 252
+Target: Total_Power
+Train/validation/test rows: 25372/5321/5350
+Epoch 001 | train MSE(scaled)=0.15762 | val MAE=18214.2 | best=18214.2
+
+SPATIAL-FEATURE MLP TEST RESULTS
+dataset: data/raw/WEC_Perth_49.csv
+rows: 36043
+unique_layouts: 10218
+wec_count: 49
+coordinate_input_dimensions: 98
+spatial_feature_input_dimensions: 252
+target_column: Total_Power
+split_method: layout_grouped
+train_rows: 25372
+validation_rows: 5321
+test_rows: 5350
+seed: 21
+split_seed: 42
+best_epoch: 4
+best_validation_mae: 12811.361328125
+test_mae: 15627.5419921875
+test_rmse: 25095.39176821115
+test_nmae: 0.003973527514760684
+test_r2: 0.9543730616569519
+test_inference_total_seconds: 0.002328459000000116
+test_inference_ms_per_sample: 0.0004352259813084329
+
+Results saved to: /Users/eruvaakhil/Downloads/wavelab_connected_project/results/spatial
+Checkpoint saved to: /Users/eruvaakhil/Downloads/wavelab_connected_project/models/spatial/WEC_Perth_49_spatial_mlp_seed21_best.pt
+
+$ /Users/eruvaakhil/Downloads/wavelab_connected_project/.venv/bin/python -m src.train_gnn --data data/raw/WEC_Perth_49.csv --seed 21 --split-seed 42 --epochs 5 --output-dir results/gnn --model-dir models/gnn
+
+Device: cpu
+Dataset: data/raw/WEC_Perth_49.csv
+Rows: 36,043
+Unique layouts: 10,218
+WEC count / graph nodes: 49
+Node features: x and y coordinates
+Graph: symmetrized 8-nearest-neighbour connections
+Train/validation/test rows: 25372/5321/5350
+Epoch 001 | train MSE(scaled)=0.27535 | val MAE=40811.2 | best=40811.2
+
+GNN TEST RESULTS
+dataset: data/raw/WEC_Perth_49.csv
+rows: 36043
+unique_layouts: 10218
+wec_count: 49
+target_column: Total_Power
+model: coordinate_graph_neural_network
+graph: symmetrized_8_nearest_neighbours
+split_method: layout_grouped
+train_rows: 25372
+validation_rows: 5321
+test_rows: 5350
+train_layouts: 7152
+validation_layouts: 1533
+test_layouts: 1533
+seed: 21
+split_seed: 42
+device: cpu
+best_epoch: 5
+best_validation_mae: 27057.91015625
+test_mae: 28069.275390625
+test_rmse: 38952.27685257949
+test_nmae: 0.007137017333871272
+test_r2: 0.8900743126869202
+test_inference_total_seconds: 0.16690879200000097
+test_inference_ms_per_sample: 0.031197905046729153
+
+Results saved to: /Users/eruvaakhil/Downloads/wavelab_connected_project/results/gnn
+Checkpoint saved to: /Users/eruvaakhil/Downloads/wavelab_connected_project/models/gnn/WEC_Perth_49_gnn_seed21_best.pt
+
+Run finished with exit code 0.

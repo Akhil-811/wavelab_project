@@ -1,0 +1,45 @@
+
+$ /Users/eruvaakhil/Downloads/wavelab_connected_project/.venv/bin/python -m src.train_mlp_grouped --data data/raw/WEC_Perth_49.csv --seed 21 --split-seed 42 --epochs 5 --output-dir results/grouped --model-dir models/grouped
+
+Device: cpu
+Dataset: data/raw/WEC_Perth_49.csv
+Rows: 36,043
+Unique layouts: 10,218
+Train rows: 25,372
+Validation rows: 5,321
+Test rows: 5,350
+Input dimensions: 98
+Target: Total_Power
+Inputs: coordinates only
+Epoch 001 | train MSE(scaled)=0.21968 | val MAE=25476.1 | best=25476.1
+
+GROUPED TEST RESULTS
+dataset: data/raw/WEC_Perth_49.csv
+rows: 36043
+unique_layouts: 10218
+wec_count: 49
+input_dimensions: 98
+target_column: Total_Power
+split_method: layout_grouped
+train_rows: 25372
+validation_rows: 5321
+test_rows: 5350
+train_layouts: 7152
+validation_layouts: 1533
+test_layouts: 1533
+seed: 21
+split_seed: 42
+device: cpu
+best_epoch: 5
+best_validation_mae: 18074.712890625
+test_mae: 19276.81640625
+test_rmse: 30551.130650108516
+test_nmae: 0.004901408066957477
+test_r2: 0.9323779940605164
+test_inference_total_seconds: 0.0017120420000011904
+test_inference_ms_per_sample: 0.00032000785046751225
+
+Results saved to: /Users/eruvaakhil/Downloads/wavelab_connected_project/results/grouped
+Checkpoint saved to: /Users/eruvaakhil/Downloads/wavelab_connected_project/models/grouped/WEC_Perth_49_coordinate_mlp_grouped_seed21.pt
+
+Run finished with exit code 0.

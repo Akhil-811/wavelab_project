@@ -1,0 +1,1929 @@
+[
+  {
+    "run_id": "24ffcc3d1249",
+    "started_at": "2026-10-15T05:01:45+10:30",
+    "finished_at": "2026-10-15T05:01:59+10:30",
+    "status": "completed",
+    "returncode": 0,
+    "dataset": "Perth 49",
+    "model": "Coordinate MLP",
+    "training_seed": 21,
+    "split_seed": 42,
+    "epochs_requested": 100,
+    "notes": "",
+    "metrics": [
+      {
+        "dataset": "Perth 49",
+        "model": "Coordinate MLP",
+        "seed": 21,
+        "split_seed": 42,
+        "MAE": 15897.1455078125,
+        "RMSE": 27514.302898674356,
+        "NMAE": 0.004042078089633412,
+        "R2": 0.9451532959938049,
+        "inference_ms_per_sample": 0.0002390809345794419,
+        "best_epoch": 72,
+        "result_file": "results/grouped/WEC_Perth_49_coordinate_mlp_grouped_seed21_metrics.json"
+      }
+    ],
+    "log_file": "dashboard_runs/run_20261015_050145_24ffcc3d1249.log",
+    "checkpoint_paths": [
+      "models/grouped/WEC_Perth_49_coordinate_mlp_grouped_seed21.pt"
+    ],
+    "config": {
+      "dataset": "Perth 49",
+      "model": "Coordinate MLP",
+      "training_seed": 21,
+      "split_seed": 42,
+      "epochs": 100,
+      "notes": "",
+      "inputs_policy": {
+        "coordinate_only_and_spatial_only": true,
+        "exclude_individual_power_columns": true,
+        "exclude_qW": true
+      },
+      "execution_status": "configuration_only_backend_not_connected",
+      "requested_at": "2026-10-14T18:31:43.884Z"
+    }
+  },
+  {
+    "run_id": "d9ba9b6a7c92",
+    "started_at": "2026-10-15T05:02:20+10:30",
+    "finished_at": "2026-10-15T05:02:27+10:30",
+    "status": "completed",
+    "returncode": 0,
+    "dataset": "Sydney 49",
+    "model": "Coordinate MLP",
+    "training_seed": 21,
+    "split_seed": 42,
+    "epochs_requested": 100,
+    "notes": "",
+    "metrics": [
+      {
+        "dataset": "Sydney 49",
+        "model": "Coordinate MLP",
+        "seed": 21,
+        "split_seed": 42,
+        "MAE": 6183.12255859375,
+        "RMSE": 9846.5193850416,
+        "NMAE": 0.0015339779258659637,
+        "R2": 0.9796804785728455,
+        "inference_ms_per_sample": 0.0002488773747840766,
+        "best_epoch": 32,
+        "result_file": "results/grouped/WEC_Sydney_49_coordinate_mlp_grouped_seed21_metrics.json"
+      }
+    ],
+    "log_file": "dashboard_runs/run_20261015_050220_d9ba9b6a7c92.log",
+    "checkpoint_paths": [
+      "models/grouped/WEC_Sydney_49_coordinate_mlp_grouped_seed21.pt"
+    ],
+    "config": {
+      "dataset": "Sydney 49",
+      "model": "Coordinate MLP",
+      "training_seed": 21,
+      "split_seed": 42,
+      "epochs": 100,
+      "notes": "",
+      "inputs_policy": {
+        "coordinate_only_and_spatial_only": true,
+        "exclude_individual_power_columns": true,
+        "exclude_qW": true
+      },
+      "execution_status": "configuration_only_backend_not_connected",
+      "requested_at": "2026-10-14T18:32:19.784Z"
+    }
+  },
+  {
+    "run_id": "4038db92d4c8",
+    "started_at": "2026-10-15T05:05:42+10:30",
+    "finished_at": "2026-10-15T05:05:56+10:30",
+    "status": "completed",
+    "returncode": 0,
+    "dataset": "Perth 49",
+    "model": "Coordinate MLP",
+    "training_seed": 21,
+    "split_seed": 42,
+    "epochs_requested": 100,
+    "notes": "",
+    "metrics": [
+      {
+        "dataset": "Perth 49",
+        "model": "Coordinate MLP",
+        "seed": 21,
+        "split_seed": 42,
+        "MAE": 15897.1455078125,
+        "RMSE": 27514.302898674356,
+        "NMAE": 0.004042078089633412,
+        "R2": 0.9451532959938049,
+        "inference_ms_per_sample": 0.00031236747663542094,
+        "best_epoch": 72,
+        "result_file": "results/grouped/WEC_Perth_49_coordinate_mlp_grouped_seed21_metrics.json"
+      }
+    ],
+    "log_file": "dashboard_runs/run_20261015_050542_4038db92d4c8.log",
+    "checkpoint_paths": [
+      "models/grouped/WEC_Perth_49_coordinate_mlp_grouped_seed21.pt"
+    ],
+    "config": {
+      "dataset": "Perth 49",
+      "model": "Coordinate MLP",
+      "training_seed": 21,
+      "split_seed": 42,
+      "epochs": 100,
+      "notes": "",
+      "inputs_policy": {
+        "coordinate_only_and_spatial_only": true,
+        "exclude_individual_power_columns": true,
+        "exclude_qW": true
+      },
+      "execution_status": "configuration_only_backend_not_connected",
+      "requested_at": "2026-10-14T18:35:40.850Z"
+    }
+  },
+  {
+    "run_id": "36b88eb567a7",
+    "started_at": "2026-10-15T05:06:19+10:30",
+    "finished_at": "2026-10-15T05:06:29+10:30",
+    "status": "completed",
+    "returncode": 0,
+    "dataset": "Perth 49",
+    "model": "Coordinate MLP",
+    "training_seed": 42,
+    "split_seed": 42,
+    "epochs_requested": 100,
+    "notes": "",
+    "metrics": [
+      {
+        "dataset": "Perth 49",
+        "model": "Coordinate MLP",
+        "seed": 42,
+        "split_seed": 42,
+        "MAE": 16738.419921875,
+        "RMSE": 28459.2070163594,
+        "NMAE": 0.004255984219811316,
+        "R2": 0.9413214921951294,
+        "inference_ms_per_sample": 0.0003004439252334518,
+        "best_epoch": 31,
+        "result_file": "results/grouped/WEC_Perth_49_coordinate_mlp_grouped_seed42_metrics.json"
+      }
+    ],
+    "log_file": "dashboard_runs/run_20261015_050619_36b88eb567a7.log",
+    "checkpoint_paths": [
+      "models/grouped/WEC_Perth_49_coordinate_mlp_grouped_seed42.pt"
+    ],
+    "config": {
+      "dataset": "Perth 49",
+      "model": "Coordinate MLP",
+      "training_seed": 42,
+      "split_seed": 42,
+      "epochs": 100,
+      "notes": "",
+      "inputs_policy": {
+        "coordinate_only_and_spatial_only": true,
+        "exclude_individual_power_columns": true,
+        "exclude_qW": true
+      },
+      "execution_status": "configuration_only_backend_not_connected",
+      "requested_at": "2026-10-14T18:36:18.183Z"
+    }
+  },
+  {
+    "run_id": "00088b3d6751",
+    "started_at": "2026-10-15T05:06:57+10:30",
+    "finished_at": "2026-10-15T05:07:08+10:30",
+    "status": "completed",
+    "returncode": 0,
+    "dataset": "Perth 49",
+    "model": "Coordinate MLP",
+    "training_seed": 123,
+    "split_seed": 42,
+    "epochs_requested": 100,
+    "notes": "",
+    "metrics": [
+      {
+        "dataset": "Perth 49",
+        "model": "Coordinate MLP",
+        "seed": 123,
+        "split_seed": 42,
+        "MAE": 15937.5546875,
+        "RMSE": 27277.123602022264,
+        "NMAE": 0.0040523527052714605,
+        "R2": 0.946094810962677,
+        "inference_ms_per_sample": 0.00025018691588804103,
+        "best_epoch": 46,
+        "result_file": "results/grouped/WEC_Perth_49_coordinate_mlp_grouped_seed123_metrics.json"
+      }
+    ],
+    "log_file": "dashboard_runs/run_20261015_050657_00088b3d6751.log",
+    "checkpoint_paths": [
+      "models/grouped/WEC_Perth_49_coordinate_mlp_grouped_seed123.pt"
+    ],
+    "config": {
+      "dataset": "Perth 49",
+      "model": "Coordinate MLP",
+      "training_seed": 123,
+      "split_seed": 42,
+      "epochs": 100,
+      "notes": "",
+      "inputs_policy": {
+        "coordinate_only_and_spatial_only": true,
+        "exclude_individual_power_columns": true,
+        "exclude_qW": true
+      },
+      "execution_status": "configuration_only_backend_not_connected",
+      "requested_at": "2026-10-14T18:36:55.950Z"
+    }
+  },
+  {
+    "run_id": "18b28f79efe8",
+    "started_at": "2026-10-15T05:07:27+10:30",
+    "finished_at": "2026-10-15T05:07:39+10:30",
+    "status": "completed",
+    "returncode": 0,
+    "dataset": "Perth 49",
+    "model": "Spatial-feature MLP",
+    "training_seed": 21,
+    "split_seed": 42,
+    "epochs_requested": 100,
+    "notes": "",
+    "metrics": [
+      {
+        "dataset": "Perth 49",
+        "model": "Spatial-feature MLP",
+        "seed": 21,
+        "split_seed": 42,
+        "MAE": 13040.505859375,
+        "RMSE": 22356.658068682806,
+        "NMAE": 0.0033157363368166706,
+        "R2": 0.9637884497642517,
+        "inference_ms_per_sample": 0.00035830224299048116,
+        "best_epoch": 36,
+        "result_file": "results/spatial/WEC_Perth_49_spatial_mlp_seed21_metrics.json"
+      }
+    ],
+    "log_file": "dashboard_runs/run_20261015_050727_18b28f79efe8.log",
+    "checkpoint_paths": [
+      "models/spatial/WEC_Perth_49_spatial_mlp_seed21_best.pt"
+    ],
+    "config": {
+      "dataset": "Perth 49",
+      "model": "Spatial-feature MLP",
+      "training_seed": 21,
+      "split_seed": 42,
+      "epochs": 100,
+      "notes": "",
+      "inputs_policy": {
+        "coordinate_only_and_spatial_only": true,
+        "exclude_individual_power_columns": true,
+        "exclude_qW": true
+      },
+      "execution_status": "configuration_only_backend_not_connected",
+      "requested_at": "2026-10-14T18:37:26.531Z"
+    }
+  },
+  {
+    "run_id": "6ffbb81c2f94",
+    "started_at": "2026-10-15T05:08:19+10:30",
+    "finished_at": "2026-10-15T05:08:30+10:30",
+    "status": "completed",
+    "returncode": 0,
+    "dataset": "Perth 49",
+    "model": "Spatial-feature MLP",
+    "training_seed": 42,
+    "split_seed": 42,
+    "epochs_requested": 100,
+    "notes": "",
+    "metrics": [
+      {
+        "dataset": "Perth 49",
+        "model": "Spatial-feature MLP",
+        "seed": 42,
+        "split_seed": 42,
+        "MAE": 11962.306640625,
+        "RMSE": 21168.737704454652,
+        "NMAE": 0.003041588664441938,
+        "R2": 0.9675344228744507,
+        "inference_ms_per_sample": 0.00037076336448589505,
+        "best_epoch": 27,
+        "result_file": "results/spatial/WEC_Perth_49_spatial_mlp_seed42_metrics.json"
+      }
+    ],
+    "log_file": "dashboard_runs/run_20261015_050819_6ffbb81c2f94.log",
+    "checkpoint_paths": [
+      "models/spatial/WEC_Perth_49_spatial_mlp_seed42_best.pt"
+    ],
+    "config": {
+      "dataset": "Perth 49",
+      "model": "Spatial-feature MLP",
+      "training_seed": 42,
+      "split_seed": 42,
+      "epochs": 100,
+      "notes": "",
+      "inputs_policy": {
+        "coordinate_only_and_spatial_only": true,
+        "exclude_individual_power_columns": true,
+        "exclude_qW": true
+      },
+      "execution_status": "configuration_only_backend_not_connected",
+      "requested_at": "2026-10-14T18:38:18.617Z"
+    }
+  },
+  {
+    "run_id": "40760af1b304",
+    "started_at": "2026-10-15T05:08:44+10:30",
+    "finished_at": "2026-10-15T05:08:59+10:30",
+    "status": "completed",
+    "returncode": 0,
+    "dataset": "Perth 49",
+    "model": "Spatial-feature MLP",
+    "training_seed": 123,
+    "split_seed": 42,
+    "epochs_requested": 100,
+    "notes": "",
+    "metrics": [
+      {
+        "dataset": "Perth 49",
+        "model": "Spatial-feature MLP",
+        "seed": 123,
+        "split_seed": 42,
+        "MAE": 11927.501953125,
+        "RMSE": 21457.02010997799,
+        "NMAE": 0.0030327390716209405,
+        "R2": 0.9666441082954407,
+        "inference_ms_per_sample": 0.0004407242990653289,
+        "best_epoch": 64,
+        "result_file": "results/spatial/WEC_Perth_49_spatial_mlp_seed123_metrics.json"
+      }
+    ],
+    "log_file": "dashboard_runs/run_20261015_050844_40760af1b304.log",
+    "checkpoint_paths": [
+      "models/spatial/WEC_Perth_49_spatial_mlp_seed123_best.pt"
+    ],
+    "config": {
+      "dataset": "Perth 49",
+      "model": "Spatial-feature MLP",
+      "training_seed": 123,
+      "split_seed": 42,
+      "epochs": 100,
+      "notes": "",
+      "inputs_policy": {
+        "coordinate_only_and_spatial_only": true,
+        "exclude_individual_power_columns": true,
+        "exclude_qW": true
+      },
+      "execution_status": "configuration_only_backend_not_connected",
+      "requested_at": "2026-10-14T18:38:42.883Z"
+    }
+  },
+  {
+    "run_id": "7bfe22f43b8b",
+    "started_at": "2026-10-15T05:09:18+10:30",
+    "finished_at": "2026-10-15T05:12:40+10:30",
+    "status": "completed",
+    "returncode": 0,
+    "dataset": "Perth 49",
+    "model": "GNN",
+    "training_seed": 21,
+    "split_seed": 42,
+    "epochs_requested": 100,
+    "notes": "",
+    "metrics": [
+      {
+        "dataset": "Perth 49",
+        "model": "GNN",
+        "seed": 21,
+        "split_seed": 42,
+        "MAE": 14417.76171875,
+        "RMSE": 23331.387956999042,
+        "NMAE": 0.003665923465082125,
+        "R2": 0.960561990737915,
+        "inference_ms_per_sample": 0.030719836448597392,
+        "best_epoch": 66,
+        "result_file": "results/gnn/WEC_Perth_49_gnn_seed21_metrics.json"
+      }
+    ],
+    "log_file": "dashboard_runs/run_20261015_050918_7bfe22f43b8b.log",
+    "checkpoint_paths": [
+      "models/gnn/WEC_Perth_49_gnn_seed21_best.pt"
+    ],
+    "config": {
+      "dataset": "Perth 49",
+      "model": "GNN",
+      "training_seed": 21,
+      "split_seed": 42,
+      "epochs": 100,
+      "notes": "",
+      "inputs_policy": {
+        "coordinate_only_and_spatial_only": true,
+        "exclude_individual_power_columns": true,
+        "exclude_qW": true
+      },
+      "execution_status": "configuration_only_backend_not_connected",
+      "requested_at": "2026-10-14T18:39:17.465Z"
+    }
+  },
+  {
+    "run_id": "4daff4bfc473",
+    "started_at": "2026-10-15T05:14:26+10:30",
+    "finished_at": "2026-10-15T05:18:08+10:30",
+    "status": "completed",
+    "returncode": 0,
+    "dataset": "Perth 49",
+    "model": "GNN",
+    "training_seed": 42,
+    "split_seed": 42,
+    "epochs_requested": 100,
+    "notes": "",
+    "metrics": [
+      {
+        "dataset": "Perth 49",
+        "model": "GNN",
+        "seed": 42,
+        "split_seed": 42,
+        "MAE": 15211.8994140625,
+        "RMSE": 24605.46670965621,
+        "NMAE": 0.0038678444059703568,
+        "R2": 0.9561371803283691,
+        "inference_ms_per_sample": 0.030903699439254226,
+        "best_epoch": 92,
+        "result_file": "results/gnn/WEC_Perth_49_gnn_seed42_metrics.json"
+      }
+    ],
+    "log_file": "dashboard_runs/run_20261015_051426_4daff4bfc473.log",
+    "checkpoint_paths": [
+      "models/gnn/WEC_Perth_49_gnn_seed42_best.pt"
+    ],
+    "config": {
+      "dataset": "Perth 49",
+      "model": "GNN",
+      "training_seed": 42,
+      "split_seed": 42,
+      "epochs": 100,
+      "notes": "",
+      "inputs_policy": {
+        "coordinate_only_and_spatial_only": true,
+        "exclude_individual_power_columns": true,
+        "exclude_qW": true
+      },
+      "execution_status": "configuration_only_backend_not_connected",
+      "requested_at": "2026-10-14T18:44:25.232Z"
+    }
+  },
+  {
+    "run_id": "9a47466db18b",
+    "started_at": "2026-10-15T05:21:25+10:30",
+    "finished_at": "2026-10-15T05:25:09+10:30",
+    "status": "completed",
+    "returncode": 0,
+    "dataset": "Perth 49",
+    "model": "GNN",
+    "training_seed": 123,
+    "split_seed": 42,
+    "epochs_requested": 100,
+    "notes": "",
+    "metrics": [
+      {
+        "dataset": "Perth 49",
+        "model": "GNN",
+        "seed": 123,
+        "split_seed": 42,
+        "MAE": 15583.880859375,
+        "RMSE": 26200.660755026773,
+        "NMAE": 0.003962426043227744,
+        "R2": 0.9502654671669006,
+        "inference_ms_per_sample": 0.030797281869154515,
+        "best_epoch": 89,
+        "result_file": "results/gnn/WEC_Perth_49_gnn_seed123_metrics.json"
+      }
+    ],
+    "log_file": "dashboard_runs/run_20261015_052125_9a47466db18b.log",
+    "checkpoint_paths": [
+      "models/gnn/WEC_Perth_49_gnn_seed123_best.pt"
+    ],
+    "config": {
+      "dataset": "Perth 49",
+      "model": "GNN",
+      "training_seed": 123,
+      "split_seed": 42,
+      "epochs": 100,
+      "notes": "",
+      "inputs_policy": {
+        "coordinate_only_and_spatial_only": true,
+        "exclude_individual_power_columns": true,
+        "exclude_qW": true
+      },
+      "execution_status": "configuration_only_backend_not_connected",
+      "requested_at": "2026-10-14T18:51:24.262Z"
+    }
+  },
+  {
+    "run_id": "4c32a85ff9cd",
+    "started_at": "2026-10-17T21:32:42+10:30",
+    "finished_at": "2026-10-17T21:33:54+10:30",
+    "status": "completed",
+    "returncode": 0,
+    "dataset": "Perth 100",
+    "model": "GNN",
+    "training_seed": 21,
+    "split_seed": 42,
+    "epochs_requested": 100,
+    "notes": "",
+    "metrics": [
+      {
+        "dataset": "Perth 100",
+        "model": "GNN",
+        "seed": 21,
+        "split_seed": 42,
+        "MAE": 22261.70703125,
+        "RMSE": 31472.92220306211,
+        "NMAE": 0.003128629079888182,
+        "R2": 0.9717933535575867,
+        "inference_ms_per_sample": 0.05706833874898346,
+        "best_epoch": 95,
+        "result_file": "results/gnn/WEC_Perth_100_gnn_seed21_metrics.json"
+      }
+    ],
+    "log_file": "dashboard_runs/run_20261017_213242_4c32a85ff9cd.log",
+    "checkpoint_paths": [
+      "models/gnn/WEC_Perth_100_gnn_seed21_best.pt"
+    ],
+    "config": {
+      "dataset": "Perth 100",
+      "model": "GNN",
+      "training_seed": 21,
+      "split_seed": 42,
+      "epochs": 100,
+      "notes": "",
+      "inputs_policy": {
+        "coordinate_only_and_spatial_only": true,
+        "exclude_individual_power_columns": true,
+        "exclude_qW": true
+      },
+      "execution_status": "configuration_only_backend_not_connected",
+      "requested_at": "2026-10-17T11:02:39.302Z"
+    }
+  },
+  {
+    "run_id": "0460876d88c5",
+    "started_at": "2026-10-17T22:23:00+10:30",
+    "finished_at": "2026-10-17T22:25:05+10:30",
+    "status": "completed",
+    "returncode": 0,
+    "dataset": "Perth 100",
+    "model": "GNN",
+    "training_seed": 42,
+    "split_seed": 42,
+    "epochs_requested": 100,
+    "notes": "",
+    "metrics": [
+      {
+        "dataset": "Perth 100",
+        "model": "GNN",
+        "seed": 42,
+        "split_seed": 42,
+        "MAE": 22448.044921875,
+        "RMSE": 33946.57449581622,
+        "NMAE": 0.003154816745662241,
+        "R2": 0.9671852588653564,
+        "inference_ms_per_sample": 0.09811762144597885,
+        "best_epoch": 88,
+        "result_file": "results/gnn/WEC_Perth_100_gnn_seed42_metrics.json"
+      }
+    ],
+    "log_file": "dashboard_runs/run_20261017_222300_0460876d88c5.log",
+    "checkpoint_paths": [
+      "models/gnn/WEC_Perth_100_gnn_seed42_best.pt"
+    ],
+    "config": {
+      "dataset": "Perth 100",
+      "model": "GNN",
+      "training_seed": 42,
+      "split_seed": 42,
+      "epochs": 100,
+      "notes": "",
+      "inputs_policy": {
+        "coordinate_only_and_spatial_only": true,
+        "exclude_individual_power_columns": true,
+        "exclude_qW": true
+      },
+      "execution_status": "configuration_only_backend_not_connected",
+      "requested_at": "2026-10-17T11:52:46.222Z"
+    }
+  },
+  {
+    "run_id": "c3a8baf61c2f",
+    "started_at": "2026-10-17T22:45:03+10:30",
+    "finished_at": "2026-10-17T22:47:13+10:30",
+    "status": "completed",
+    "returncode": 0,
+    "dataset": "Perth 100",
+    "model": "GNN",
+    "training_seed": 123,
+    "split_seed": 42,
+    "epochs_requested": 100,
+    "notes": "",
+    "metrics": [
+      {
+        "dataset": "Perth 100",
+        "model": "GNN",
+        "seed": 123,
+        "split_seed": 42,
+        "MAE": 23592.380859375,
+        "RMSE": 34594.48094711063,
+        "NMAE": 0.003315640113169408,
+        "R2": 0.9659206867218018,
+        "inference_ms_per_sample": 0.10089239723801656,
+        "best_epoch": 82,
+        "result_file": "results/gnn/WEC_Perth_100_gnn_seed123_metrics.json"
+      }
+    ],
+    "log_file": "dashboard_runs/run_20261017_224503_c3a8baf61c2f.log",
+    "checkpoint_paths": [
+      "models/gnn/WEC_Perth_100_gnn_seed123_best.pt"
+    ],
+    "config": {
+      "dataset": "Perth 100",
+      "model": "GNN",
+      "training_seed": 123,
+      "split_seed": 42,
+      "epochs": 100,
+      "notes": "",
+      "inputs_policy": {
+        "coordinate_only_and_spatial_only": true,
+        "exclude_individual_power_columns": true,
+        "exclude_qW": true
+      },
+      "execution_status": "configuration_only_backend_not_connected",
+      "requested_at": "2026-10-17T12:15:01.133Z"
+    }
+  },
+  {
+    "run_id": "2cfe8cfdc0bc",
+    "started_at": "2026-10-17T22:49:58+10:30",
+    "finished_at": "2026-10-17T22:50:06+10:30",
+    "status": "completed",
+    "returncode": 0,
+    "dataset": "Perth 100",
+    "model": "Coordinate MLP",
+    "training_seed": 123,
+    "split_seed": 42,
+    "epochs_requested": 100,
+    "notes": "",
+    "metrics": [
+      {
+        "dataset": "Perth 100",
+        "model": "Coordinate MLP",
+        "seed": 123,
+        "split_seed": 42,
+        "MAE": 32479.837890625,
+        "RMSE": 59558.011518182844,
+        "NMAE": 0.004564670857990245,
+        "R2": 0.8989915251731873,
+        "inference_ms_per_sample": 0.00041497400487398644,
+        "best_epoch": 14,
+        "result_file": "results/grouped/WEC_Perth_100_coordinate_mlp_grouped_seed123_metrics.json"
+      }
+    ],
+    "log_file": "dashboard_runs/run_20261017_224958_2cfe8cfdc0bc.log",
+    "checkpoint_paths": [
+      "models/grouped/WEC_Perth_100_coordinate_mlp_grouped_seed123.pt"
+    ],
+    "config": {
+      "dataset": "Perth 100",
+      "model": "Coordinate MLP",
+      "training_seed": 123,
+      "split_seed": 42,
+      "epochs": 100,
+      "notes": "",
+      "inputs_policy": {
+        "coordinate_only_and_spatial_only": true,
+        "exclude_individual_power_columns": true,
+        "exclude_qW": true
+      },
+      "execution_status": "configuration_only_backend_not_connected",
+      "requested_at": "2026-10-17T12:19:57.214Z"
+    }
+  },
+  {
+    "run_id": "cfae7868d7ee",
+    "started_at": "2026-10-17T22:51:35+10:30",
+    "finished_at": "2026-10-17T22:51:44+10:30",
+    "status": "completed",
+    "returncode": 0,
+    "dataset": "Perth 100",
+    "model": "Coordinate MLP",
+    "training_seed": 42,
+    "split_seed": 42,
+    "epochs_requested": 100,
+    "notes": "",
+    "metrics": [
+      {
+        "dataset": "Perth 100",
+        "model": "Coordinate MLP",
+        "seed": 42,
+        "split_seed": 42,
+        "MAE": 34669.95703125,
+        "RMSE": 61228.04690662605,
+        "NMAE": 0.004872467129954495,
+        "R2": 0.8932474255561829,
+        "inference_ms_per_sample": 0.00046997725426443183,
+        "best_epoch": 47,
+        "result_file": "results/grouped/WEC_Perth_100_coordinate_mlp_grouped_seed42_metrics.json"
+      }
+    ],
+    "log_file": "dashboard_runs/run_20261017_225135_cfae7868d7ee.log",
+    "checkpoint_paths": [
+      "models/grouped/WEC_Perth_100_coordinate_mlp_grouped_seed42.pt"
+    ],
+    "config": {
+      "dataset": "Perth 100",
+      "model": "Coordinate MLP",
+      "training_seed": 42,
+      "split_seed": 42,
+      "epochs": 100,
+      "notes": "",
+      "inputs_policy": {
+        "coordinate_only_and_spatial_only": true,
+        "exclude_individual_power_columns": true,
+        "exclude_qW": true
+      },
+      "execution_status": "configuration_only_backend_not_connected",
+      "requested_at": "2026-10-17T12:21:34.499Z"
+    }
+  },
+  {
+    "run_id": "2eeb2fde2620",
+    "started_at": "2026-10-17T22:52:20+10:30",
+    "finished_at": "2026-10-17T22:52:29+10:30",
+    "status": "completed",
+    "returncode": 0,
+    "dataset": "Perth 100",
+    "model": "Coordinate MLP",
+    "training_seed": 21,
+    "split_seed": 42,
+    "epochs_requested": 100,
+    "notes": "",
+    "metrics": [
+      {
+        "dataset": "Perth 100",
+        "model": "Coordinate MLP",
+        "seed": 21,
+        "split_seed": 42,
+        "MAE": 32871.71484375,
+        "RMSE": 57860.448943989366,
+        "NMAE": 0.004619744695300375,
+        "R2": 0.9046674966812134,
+        "inference_ms_per_sample": 0.0004388708367183119,
+        "best_epoch": 54,
+        "result_file": "results/grouped/WEC_Perth_100_coordinate_mlp_grouped_seed21_metrics.json"
+      }
+    ],
+    "log_file": "dashboard_runs/run_20261017_225220_2eeb2fde2620.log",
+    "checkpoint_paths": [
+      "models/grouped/WEC_Perth_100_coordinate_mlp_grouped_seed21.pt"
+    ],
+    "config": {
+      "dataset": "Perth 100",
+      "model": "Coordinate MLP",
+      "training_seed": 21,
+      "split_seed": 42,
+      "epochs": 100,
+      "notes": "",
+      "inputs_policy": {
+        "coordinate_only_and_spatial_only": true,
+        "exclude_individual_power_columns": true,
+        "exclude_qW": true
+      },
+      "execution_status": "configuration_only_backend_not_connected",
+      "requested_at": "2026-10-17T12:22:18.780Z"
+    }
+  },
+  {
+    "run_id": "aa44d09c7d75",
+    "started_at": "2026-10-17T22:53:48+10:30",
+    "finished_at": "2026-10-17T22:53:58+10:30",
+    "status": "completed",
+    "returncode": 0,
+    "dataset": "Perth 100",
+    "model": "Spatial-feature MLP",
+    "training_seed": 21,
+    "split_seed": 42,
+    "epochs_requested": 100,
+    "notes": "",
+    "metrics": [
+      {
+        "dataset": "Perth 100",
+        "model": "Spatial-feature MLP",
+        "seed": 21,
+        "split_seed": 42,
+        "MAE": 22341.306640625,
+        "RMSE": 38236.50527964081,
+        "NMAE": 0.003139815897336133,
+        "R2": 0.9583673477172852,
+        "inference_ms_per_sample": 0.0007509813160033082,
+        "best_epoch": 39,
+        "result_file": "results/spatial/WEC_Perth_100_spatial_mlp_seed21_metrics.json"
+      }
+    ],
+    "log_file": "dashboard_runs/run_20261017_225348_aa44d09c7d75.log",
+    "checkpoint_paths": [
+      "models/spatial/WEC_Perth_100_spatial_mlp_seed21_best.pt"
+    ],
+    "config": {
+      "dataset": "Perth 100",
+      "model": "Spatial-feature MLP",
+      "training_seed": 21,
+      "split_seed": 42,
+      "epochs": 100,
+      "notes": "",
+      "inputs_policy": {
+        "coordinate_only_and_spatial_only": true,
+        "exclude_individual_power_columns": true,
+        "exclude_qW": true
+      },
+      "execution_status": "configuration_only_backend_not_connected",
+      "requested_at": "2026-10-17T12:23:45.899Z"
+    }
+  },
+  {
+    "run_id": "a2c5ecd02183",
+    "started_at": "2026-10-17T22:54:35+10:30",
+    "finished_at": "2026-10-17T22:54:47+10:30",
+    "status": "completed",
+    "returncode": 0,
+    "dataset": "Perth 100",
+    "model": "Spatial-feature MLP",
+    "training_seed": 42,
+    "split_seed": 42,
+    "epochs_requested": 100,
+    "notes": "",
+    "metrics": [
+      {
+        "dataset": "Perth 100",
+        "model": "Spatial-feature MLP",
+        "seed": 42,
+        "split_seed": 42,
+        "MAE": 22828.54296875,
+        "RMSE": 39176.03675718104,
+        "NMAE": 0.0032082914074490795,
+        "R2": 0.9562962651252747,
+        "inference_ms_per_sample": 0.0012418765231507103,
+        "best_epoch": 95,
+        "result_file": "results/spatial/WEC_Perth_100_spatial_mlp_seed42_metrics.json"
+      }
+    ],
+    "log_file": "dashboard_runs/run_20261017_225435_a2c5ecd02183.log",
+    "checkpoint_paths": [
+      "models/spatial/WEC_Perth_100_spatial_mlp_seed42_best.pt"
+    ],
+    "config": {
+      "dataset": "Perth 100",
+      "model": "Spatial-feature MLP",
+      "training_seed": 42,
+      "split_seed": 42,
+      "epochs": 100,
+      "notes": "",
+      "inputs_policy": {
+        "coordinate_only_and_spatial_only": true,
+        "exclude_individual_power_columns": true,
+        "exclude_qW": true
+      },
+      "execution_status": "configuration_only_backend_not_connected",
+      "requested_at": "2026-10-17T12:24:33.581Z"
+    }
+  },
+  {
+    "run_id": "bc438f8b13c4",
+    "started_at": "2026-10-17T22:54:57+10:30",
+    "finished_at": "2026-10-17T22:55:09+10:30",
+    "status": "completed",
+    "returncode": 0,
+    "dataset": "Perth 100",
+    "model": "Spatial-feature MLP",
+    "training_seed": 123,
+    "split_seed": 42,
+    "epochs_requested": 100,
+    "notes": "",
+    "metrics": [
+      {
+        "dataset": "Perth 100",
+        "model": "Spatial-feature MLP",
+        "seed": 123,
+        "split_seed": 42,
+        "MAE": 22159.6875,
+        "RMSE": 38432.60782200448,
+        "NMAE": 0.0031142913980681283,
+        "R2": 0.9579392075538635,
+        "inference_ms_per_sample": 0.0010363525588963057,
+        "best_epoch": 64,
+        "result_file": "results/spatial/WEC_Perth_100_spatial_mlp_seed123_metrics.json"
+      }
+    ],
+    "log_file": "dashboard_runs/run_20261017_225457_bc438f8b13c4.log",
+    "checkpoint_paths": [
+      "models/spatial/WEC_Perth_100_spatial_mlp_seed123_best.pt"
+    ],
+    "config": {
+      "dataset": "Perth 100",
+      "model": "Spatial-feature MLP",
+      "training_seed": 123,
+      "split_seed": 42,
+      "epochs": 100,
+      "notes": "",
+      "inputs_policy": {
+        "coordinate_only_and_spatial_only": true,
+        "exclude_individual_power_columns": true,
+        "exclude_qW": true
+      },
+      "execution_status": "configuration_only_backend_not_connected",
+      "requested_at": "2026-10-17T12:24:55.163Z"
+    }
+  },
+  {
+    "run_id": "8a7285fde04d",
+    "started_at": "2026-10-17T22:56:57+10:30",
+    "finished_at": "2026-10-17T22:57:08+10:30",
+    "status": "completed",
+    "returncode": 0,
+    "dataset": "Sydney 49",
+    "model": "Coordinate MLP",
+    "training_seed": 21,
+    "split_seed": 42,
+    "epochs_requested": 100,
+    "notes": "",
+    "metrics": [
+      {
+        "dataset": "Sydney 49",
+        "model": "Coordinate MLP",
+        "seed": 21,
+        "split_seed": 42,
+        "MAE": 6183.12255859375,
+        "RMSE": 9846.5193850416,
+        "NMAE": 0.0015339779258659637,
+        "R2": 0.9796804785728455,
+        "inference_ms_per_sample": 0.0005537423143353976,
+        "best_epoch": 32,
+        "result_file": "results/grouped/WEC_Sydney_49_coordinate_mlp_grouped_seed21_metrics.json"
+      }
+    ],
+    "log_file": "dashboard_runs/run_20261017_225657_8a7285fde04d.log",
+    "checkpoint_paths": [
+      "models/grouped/WEC_Sydney_49_coordinate_mlp_grouped_seed21.pt"
+    ],
+    "config": {
+      "dataset": "Sydney 49",
+      "model": "Coordinate MLP",
+      "training_seed": 21,
+      "split_seed": 42,
+      "epochs": 100,
+      "notes": "",
+      "inputs_policy": {
+        "coordinate_only_and_spatial_only": true,
+        "exclude_individual_power_columns": true,
+        "exclude_qW": true
+      },
+      "execution_status": "configuration_only_backend_not_connected",
+      "requested_at": "2026-10-17T12:26:54.683Z"
+    }
+  },
+  {
+    "run_id": "103f6a6499eb",
+    "started_at": "2026-10-17T22:57:25+10:30",
+    "finished_at": "2026-10-17T22:57:39+10:30",
+    "status": "completed",
+    "returncode": 0,
+    "dataset": "Sydney 49",
+    "model": "Coordinate MLP",
+    "training_seed": 42,
+    "split_seed": 42,
+    "epochs_requested": 100,
+    "notes": "",
+    "metrics": [
+      {
+        "dataset": "Sydney 49",
+        "model": "Coordinate MLP",
+        "seed": 42,
+        "split_seed": 42,
+        "MAE": 6046.10009765625,
+        "RMSE": 9113.037254395485,
+        "NMAE": 0.0014999838672921416,
+        "R2": 0.9825949668884277,
+        "inference_ms_per_sample": 0.000509398618307433,
+        "best_epoch": 56,
+        "result_file": "results/grouped/WEC_Sydney_49_coordinate_mlp_grouped_seed42_metrics.json"
+      }
+    ],
+    "log_file": "dashboard_runs/run_20261017_225725_103f6a6499eb.log",
+    "checkpoint_paths": [
+      "models/grouped/WEC_Sydney_49_coordinate_mlp_grouped_seed42.pt"
+    ],
+    "config": {
+      "dataset": "Sydney 49",
+      "model": "Coordinate MLP",
+      "training_seed": 42,
+      "split_seed": 42,
+      "epochs": 100,
+      "notes": "",
+      "inputs_policy": {
+        "coordinate_only_and_spatial_only": true,
+        "exclude_individual_power_columns": true,
+        "exclude_qW": true
+      },
+      "execution_status": "configuration_only_backend_not_connected",
+      "requested_at": "2026-10-17T12:27:24.531Z"
+    }
+  },
+  {
+    "run_id": "17d4b57e8efb",
+    "started_at": "2026-10-17T22:57:54+10:30",
+    "finished_at": "2026-10-17T22:58:10+10:30",
+    "status": "completed",
+    "returncode": 0,
+    "dataset": "Sydney 49",
+    "model": "Coordinate MLP",
+    "training_seed": 123,
+    "split_seed": 42,
+    "epochs_requested": 100,
+    "notes": "",
+    "metrics": [
+      {
+        "dataset": "Sydney 49",
+        "model": "Coordinate MLP",
+        "seed": 123,
+        "split_seed": 42,
+        "MAE": 5780.56494140625,
+        "RMSE": 9040.036725589116,
+        "NMAE": 0.0014341069476016626,
+        "R2": 0.982872724533081,
+        "inference_ms_per_sample": 0.0004129246977547222,
+        "best_epoch": 94,
+        "result_file": "results/grouped/WEC_Sydney_49_coordinate_mlp_grouped_seed123_metrics.json"
+      }
+    ],
+    "log_file": "dashboard_runs/run_20261017_225754_17d4b57e8efb.log",
+    "checkpoint_paths": [
+      "models/grouped/WEC_Sydney_49_coordinate_mlp_grouped_seed123.pt"
+    ],
+    "config": {
+      "dataset": "Sydney 49",
+      "model": "Coordinate MLP",
+      "training_seed": 123,
+      "split_seed": 42,
+      "epochs": 100,
+      "notes": "",
+      "inputs_policy": {
+        "coordinate_only_and_spatial_only": true,
+        "exclude_individual_power_columns": true,
+        "exclude_qW": true
+      },
+      "execution_status": "configuration_only_backend_not_connected",
+      "requested_at": "2026-10-17T12:27:52.818Z"
+    }
+  },
+  {
+    "run_id": "bd5c107d02b9",
+    "started_at": "2026-10-19T02:44:08+10:30",
+    "finished_at": "2026-10-19T02:44:18+10:30",
+    "status": "completed",
+    "returncode": 0,
+    "dataset": "Sydney 49",
+    "model": "Spatial-feature MLP",
+    "training_seed": 21,
+    "split_seed": 42,
+    "epochs_requested": 100,
+    "notes": "",
+    "metrics": [
+      {
+        "dataset": "Sydney 49",
+        "model": "Spatial-feature MLP",
+        "seed": 21,
+        "split_seed": 42,
+        "MAE": 4412.8671875,
+        "RMSE": 6355.64567923669,
+        "NMAE": 0.001094793252317931,
+        "R2": 0.9915342330932617,
+        "inference_ms_per_sample": 0.0004365716753026375,
+        "best_epoch": 49,
+        "result_file": "results/spatial/WEC_Sydney_49_spatial_mlp_seed21_metrics.json"
+      }
+    ],
+    "log_file": "dashboard_runs/run_20261019_024408_bd5c107d02b9.log",
+    "checkpoint_paths": [
+      "models/spatial/WEC_Sydney_49_spatial_mlp_seed21_best.pt"
+    ],
+    "config": {
+      "dataset": "Sydney 49",
+      "model": "Spatial-feature MLP",
+      "training_seed": 21,
+      "split_seed": 42,
+      "epochs": 100,
+      "notes": "",
+      "inputs_policy": {
+        "coordinate_only_and_spatial_only": true,
+        "exclude_individual_power_columns": true,
+        "exclude_qW": true
+      },
+      "execution_status": "configuration_only_backend_not_connected",
+      "requested_at": "2026-10-18T16:14:07.510Z"
+    }
+  },
+  {
+    "run_id": "b111db446d0d",
+    "started_at": "2026-10-19T04:54:37+10:30",
+    "finished_at": "2026-10-19T04:54:47+10:30",
+    "status": "completed",
+    "returncode": 0,
+    "dataset": "Sydney 49",
+    "model": "Spatial-feature MLP",
+    "training_seed": 42,
+    "split_seed": 42,
+    "epochs_requested": 100,
+    "notes": "",
+    "metrics": [
+      {
+        "dataset": "Sydney 49",
+        "model": "Spatial-feature MLP",
+        "seed": 42,
+        "split_seed": 42,
+        "MAE": 4536.611328125,
+        "RMSE": 6543.538492283819,
+        "NMAE": 0.0011254930772648226,
+        "R2": 0.9910262823104858,
+        "inference_ms_per_sample": 0.00032419378238342483,
+        "best_epoch": 100,
+        "result_file": "results/spatial/WEC_Sydney_49_spatial_mlp_seed42_metrics.json"
+      }
+    ],
+    "log_file": "dashboard_runs/run_20261019_045437_b111db446d0d.log",
+    "checkpoint_paths": [
+      "models/spatial/WEC_Sydney_49_spatial_mlp_seed42_best.pt"
+    ],
+    "config": {
+      "dataset": "Sydney 49",
+      "model": "Spatial-feature MLP",
+      "training_seed": 42,
+      "split_seed": 42,
+      "epochs": 100,
+      "notes": "",
+      "inputs_policy": {
+        "coordinate_only_and_spatial_only": true,
+        "exclude_individual_power_columns": true,
+        "exclude_qW": true
+      },
+      "execution_status": "configuration_only_backend_not_connected",
+      "requested_at": "2026-10-18T18:24:35.757Z"
+    }
+  },
+  {
+    "run_id": "816ec8bfe533",
+    "started_at": "2026-10-19T04:55:13+10:30",
+    "finished_at": "2026-10-19T04:55:19+10:30",
+    "status": "completed",
+    "returncode": 0,
+    "dataset": "Sydney 49",
+    "model": "Spatial-feature MLP",
+    "training_seed": 123,
+    "split_seed": 42,
+    "epochs_requested": 100,
+    "notes": "",
+    "metrics": [
+      {
+        "dataset": "Sydney 49",
+        "model": "Spatial-feature MLP",
+        "seed": 123,
+        "split_seed": 42,
+        "MAE": 5096.81298828125,
+        "RMSE": 7002.6497841888395,
+        "NMAE": 0.0012644741459028337,
+        "R2": 0.9897228479385376,
+        "inference_ms_per_sample": 0.0003144500863558575,
+        "best_epoch": 16,
+        "result_file": "results/spatial/WEC_Sydney_49_spatial_mlp_seed123_metrics.json"
+      }
+    ],
+    "log_file": "dashboard_runs/run_20261019_045513_816ec8bfe533.log",
+    "checkpoint_paths": [
+      "models/spatial/WEC_Sydney_49_spatial_mlp_seed123_best.pt"
+    ],
+    "config": {
+      "dataset": "Sydney 49",
+      "model": "Spatial-feature MLP",
+      "training_seed": 123,
+      "split_seed": 42,
+      "epochs": 100,
+      "notes": "",
+      "inputs_policy": {
+        "coordinate_only_and_spatial_only": true,
+        "exclude_individual_power_columns": true,
+        "exclude_qW": true
+      },
+      "execution_status": "configuration_only_backend_not_connected",
+      "requested_at": "2026-10-18T18:25:12.322Z"
+    }
+  },
+  {
+    "run_id": "02be929142de",
+    "started_at": "2026-10-19T04:55:35+10:30",
+    "finished_at": "2026-10-19T04:57:24+10:30",
+    "status": "completed",
+    "returncode": 0,
+    "dataset": "Sydney 49",
+    "model": "GNN",
+    "training_seed": 21,
+    "split_seed": 42,
+    "epochs_requested": 100,
+    "notes": "",
+    "metrics": [
+      {
+        "dataset": "Sydney 49",
+        "model": "GNN",
+        "seed": 21,
+        "split_seed": 42,
+        "MAE": 5717.75732421875,
+        "RMSE": 7509.623958628022,
+        "NMAE": 0.001418524934237241,
+        "R2": 0.9881808757781982,
+        "inference_ms_per_sample": 0.0321053685664928,
+        "best_epoch": 75,
+        "result_file": "results/gnn/WEC_Sydney_49_gnn_seed21_metrics.json"
+      }
+    ],
+    "log_file": "dashboard_runs/run_20261019_045535_02be929142de.log",
+    "checkpoint_paths": [
+      "models/gnn/WEC_Sydney_49_gnn_seed21_best.pt"
+    ],
+    "config": {
+      "dataset": "Sydney 49",
+      "model": "GNN",
+      "training_seed": 21,
+      "split_seed": 42,
+      "epochs": 100,
+      "notes": "",
+      "inputs_policy": {
+        "coordinate_only_and_spatial_only": true,
+        "exclude_individual_power_columns": true,
+        "exclude_qW": true
+      },
+      "execution_status": "configuration_only_backend_not_connected",
+      "requested_at": "2026-10-18T18:25:34.072Z"
+    }
+  },
+  {
+    "run_id": "69894eeb2ab7",
+    "started_at": "2026-10-19T04:57:55+10:30",
+    "finished_at": "2026-10-19T04:59:45+10:30",
+    "status": "completed",
+    "returncode": 0,
+    "dataset": "Sydney 49",
+    "model": "GNN",
+    "training_seed": 42,
+    "split_seed": 42,
+    "epochs_requested": 100,
+    "notes": "",
+    "metrics": [
+      {
+        "dataset": "Sydney 49",
+        "model": "GNN",
+        "seed": 42,
+        "split_seed": 42,
+        "MAE": 5322.6728515625,
+        "RMSE": 7366.879393610296,
+        "NMAE": 0.0013205079769209496,
+        "R2": 0.9886259436607361,
+        "inference_ms_per_sample": 0.031967918825559875,
+        "best_epoch": 92,
+        "result_file": "results/gnn/WEC_Sydney_49_gnn_seed42_metrics.json"
+      }
+    ],
+    "log_file": "dashboard_runs/run_20261019_045755_69894eeb2ab7.log",
+    "checkpoint_paths": [
+      "models/gnn/WEC_Sydney_49_gnn_seed42_best.pt"
+    ],
+    "config": {
+      "dataset": "Sydney 49",
+      "model": "GNN",
+      "training_seed": 42,
+      "split_seed": 42,
+      "epochs": 100,
+      "notes": "",
+      "inputs_policy": {
+        "coordinate_only_and_spatial_only": true,
+        "exclude_individual_power_columns": true,
+        "exclude_qW": true
+      },
+      "execution_status": "configuration_only_backend_not_connected",
+      "requested_at": "2026-10-18T18:27:54.104Z"
+    }
+  },
+  {
+    "run_id": "c57a19365e05",
+    "started_at": "2026-10-19T04:59:55+10:30",
+    "finished_at": "2026-10-19T05:01:45+10:30",
+    "status": "completed",
+    "returncode": 0,
+    "dataset": "Sydney 49",
+    "model": "GNN",
+    "training_seed": 123,
+    "split_seed": 42,
+    "epochs_requested": 100,
+    "notes": "",
+    "metrics": [
+      {
+        "dataset": "Sydney 49",
+        "model": "GNN",
+        "seed": 123,
+        "split_seed": 42,
+        "MAE": 6036.42431640625,
+        "RMSE": 8086.122432909361,
+        "NMAE": 0.0014975833916890213,
+        "R2": 0.9862965941429138,
+        "inference_ms_per_sample": 0.03195450466321294,
+        "best_epoch": 78,
+        "result_file": "results/gnn/WEC_Sydney_49_gnn_seed123_metrics.json"
+      }
+    ],
+    "log_file": "dashboard_runs/run_20261019_045955_c57a19365e05.log",
+    "checkpoint_paths": [
+      "models/gnn/WEC_Sydney_49_gnn_seed123_best.pt"
+    ],
+    "config": {
+      "dataset": "Sydney 49",
+      "model": "GNN",
+      "training_seed": 123,
+      "split_seed": 42,
+      "epochs": 100,
+      "notes": "",
+      "inputs_policy": {
+        "coordinate_only_and_spatial_only": true,
+        "exclude_individual_power_columns": true,
+        "exclude_qW": true
+      },
+      "execution_status": "configuration_only_backend_not_connected",
+      "requested_at": "2026-10-18T18:29:53.820Z"
+    }
+  },
+  {
+    "run_id": "66f0b85a0ddf",
+    "started_at": "2026-10-19T05:03:13+10:30",
+    "finished_at": "2026-10-19T05:03:17+10:30",
+    "status": "completed",
+    "returncode": 0,
+    "dataset": "Sydney 100",
+    "model": "Coordinate MLP",
+    "training_seed": 21,
+    "split_seed": 42,
+    "epochs_requested": 100,
+    "notes": "",
+    "metrics": [
+      {
+        "dataset": "Sydney 100",
+        "model": "Coordinate MLP",
+        "seed": 21,
+        "split_seed": 42,
+        "MAE": 26026.6640625,
+        "RMSE": 50056.73325337961,
+        "NMAE": 0.0036397103245022567,
+        "R2": 0.763096272945404,
+        "inference_ms_per_sample": 0.0004989430379753886,
+        "best_epoch": 48,
+        "result_file": "results/grouped/WEC_Sydney_100_coordinate_mlp_grouped_seed21_metrics.json"
+      }
+    ],
+    "log_file": "dashboard_runs/run_20261019_050313_66f0b85a0ddf.log",
+    "checkpoint_paths": [
+      "models/grouped/WEC_Sydney_100_coordinate_mlp_grouped_seed21.pt"
+    ],
+    "config": {
+      "dataset": "Sydney 100",
+      "model": "Coordinate MLP",
+      "training_seed": 21,
+      "split_seed": 42,
+      "epochs": 100,
+      "notes": "",
+      "inputs_policy": {
+        "coordinate_only_and_spatial_only": true,
+        "exclude_individual_power_columns": true,
+        "exclude_qW": true
+      },
+      "execution_status": "configuration_only_backend_not_connected",
+      "requested_at": "2026-10-18T18:33:12.535Z"
+    }
+  },
+  {
+    "run_id": "36c47a96df13",
+    "started_at": "2026-10-19T05:03:48+10:30",
+    "finished_at": "2026-10-19T05:03:52+10:30",
+    "status": "completed",
+    "returncode": 0,
+    "dataset": "Sydney 100",
+    "model": "Coordinate MLP",
+    "training_seed": 42,
+    "split_seed": 42,
+    "epochs_requested": 100,
+    "notes": "",
+    "metrics": [
+      {
+        "dataset": "Sydney 100",
+        "model": "Coordinate MLP",
+        "seed": 42,
+        "split_seed": 42,
+        "MAE": 24623.31640625,
+        "RMSE": 50660.77046393985,
+        "NMAE": 0.00344345855204869,
+        "R2": 0.7573443055152893,
+        "inference_ms_per_sample": 0.0004622911392399501,
+        "best_epoch": 76,
+        "result_file": "results/grouped/WEC_Sydney_100_coordinate_mlp_grouped_seed42_metrics.json"
+      }
+    ],
+    "log_file": "dashboard_runs/run_20261019_050348_36c47a96df13.log",
+    "checkpoint_paths": [
+      "models/grouped/WEC_Sydney_100_coordinate_mlp_grouped_seed42.pt"
+    ],
+    "config": {
+      "dataset": "Sydney 100",
+      "model": "Coordinate MLP",
+      "training_seed": 42,
+      "split_seed": 42,
+      "epochs": 100,
+      "notes": "",
+      "inputs_policy": {
+        "coordinate_only_and_spatial_only": true,
+        "exclude_individual_power_columns": true,
+        "exclude_qW": true
+      },
+      "execution_status": "configuration_only_backend_not_connected",
+      "requested_at": "2026-10-18T18:33:44.200Z"
+    }
+  },
+  {
+    "run_id": "63a7abcb6efd",
+    "started_at": "2026-10-19T05:04:00+10:30",
+    "finished_at": "2026-10-19T05:04:04+10:30",
+    "status": "completed",
+    "returncode": 0,
+    "dataset": "Sydney 100",
+    "model": "Coordinate MLP",
+    "training_seed": 123,
+    "split_seed": 42,
+    "epochs_requested": 100,
+    "notes": "",
+    "metrics": [
+      {
+        "dataset": "Sydney 100",
+        "model": "Coordinate MLP",
+        "seed": 123,
+        "split_seed": 42,
+        "MAE": 26109.328125,
+        "RMSE": 49988.98054571627,
+        "NMAE": 0.0036512705168121142,
+        "R2": 0.7637372016906738,
+        "inference_ms_per_sample": 0.0004458069620254439,
+        "best_epoch": 48,
+        "result_file": "results/grouped/WEC_Sydney_100_coordinate_mlp_grouped_seed123_metrics.json"
+      }
+    ],
+    "log_file": "dashboard_runs/run_20261019_050400_63a7abcb6efd.log",
+    "checkpoint_paths": [
+      "models/grouped/WEC_Sydney_100_coordinate_mlp_grouped_seed123.pt"
+    ],
+    "config": {
+      "dataset": "Sydney 100",
+      "model": "Coordinate MLP",
+      "training_seed": 123,
+      "split_seed": 42,
+      "epochs": 100,
+      "notes": "",
+      "inputs_policy": {
+        "coordinate_only_and_spatial_only": true,
+        "exclude_individual_power_columns": true,
+        "exclude_qW": true
+      },
+      "execution_status": "configuration_only_backend_not_connected",
+      "requested_at": "2026-10-18T18:33:59.567Z"
+    }
+  },
+  {
+    "run_id": "6004cd409275",
+    "started_at": "2026-10-19T05:04:30+10:30",
+    "finished_at": "2026-10-19T05:04:34+10:30",
+    "status": "completed",
+    "returncode": 0,
+    "dataset": "Sydney 100",
+    "model": "Spatial-feature MLP",
+    "training_seed": 21,
+    "split_seed": 42,
+    "epochs_requested": 100,
+    "notes": "",
+    "metrics": [
+      {
+        "dataset": "Sydney 100",
+        "model": "Spatial-feature MLP",
+        "seed": 21,
+        "split_seed": 42,
+        "MAE": 16797.435546875,
+        "RMSE": 31764.846985307515,
+        "NMAE": 0.002349044788771502,
+        "R2": 0.9046017527580261,
+        "inference_ms_per_sample": 0.0005508955696205777,
+        "best_epoch": 39,
+        "result_file": "results/spatial/WEC_Sydney_100_spatial_mlp_seed21_metrics.json"
+      }
+    ],
+    "log_file": "dashboard_runs/run_20261019_050430_6004cd409275.log",
+    "checkpoint_paths": [
+      "models/spatial/WEC_Sydney_100_spatial_mlp_seed21_best.pt"
+    ],
+    "config": {
+      "dataset": "Sydney 100",
+      "model": "Spatial-feature MLP",
+      "training_seed": 21,
+      "split_seed": 42,
+      "epochs": 100,
+      "notes": "",
+      "inputs_policy": {
+        "coordinate_only_and_spatial_only": true,
+        "exclude_individual_power_columns": true,
+        "exclude_qW": true
+      },
+      "execution_status": "configuration_only_backend_not_connected",
+      "requested_at": "2026-10-18T18:34:29.600Z"
+    }
+  },
+  {
+    "run_id": "73dd0cae0a93",
+    "started_at": "2026-10-19T05:04:49+10:30",
+    "finished_at": "2026-10-19T05:04:53+10:30",
+    "status": "completed",
+    "returncode": 0,
+    "dataset": "Sydney 100",
+    "model": "Spatial-feature MLP",
+    "training_seed": 42,
+    "split_seed": 42,
+    "epochs_requested": 100,
+    "notes": "",
+    "metrics": [
+      {
+        "dataset": "Sydney 100",
+        "model": "Spatial-feature MLP",
+        "seed": 42,
+        "split_seed": 42,
+        "MAE": 18257.0703125,
+        "RMSE": 32677.917191889694,
+        "NMAE": 0.0025531680568818536,
+        "R2": 0.899038553237915,
+        "inference_ms_per_sample": 0.0005642151898740216,
+        "best_epoch": 12,
+        "result_file": "results/spatial/WEC_Sydney_100_spatial_mlp_seed42_metrics.json"
+      }
+    ],
+    "log_file": "dashboard_runs/run_20261019_050449_73dd0cae0a93.log",
+    "checkpoint_paths": [
+      "models/spatial/WEC_Sydney_100_spatial_mlp_seed42_best.pt"
+    ],
+    "config": {
+      "dataset": "Sydney 100",
+      "model": "Spatial-feature MLP",
+      "training_seed": 42,
+      "split_seed": 42,
+      "epochs": 100,
+      "notes": "",
+      "inputs_policy": {
+        "coordinate_only_and_spatial_only": true,
+        "exclude_individual_power_columns": true,
+        "exclude_qW": true
+      },
+      "execution_status": "configuration_only_backend_not_connected",
+      "requested_at": "2026-10-18T18:34:48.250Z"
+    }
+  },
+  {
+    "run_id": "46c465c45468",
+    "started_at": "2026-10-19T05:05:11+10:30",
+    "finished_at": "2026-10-19T05:05:15+10:30",
+    "status": "completed",
+    "returncode": 0,
+    "dataset": "Sydney 100",
+    "model": "Spatial-feature MLP",
+    "training_seed": 123,
+    "split_seed": 42,
+    "epochs_requested": 100,
+    "notes": "",
+    "metrics": [
+      {
+        "dataset": "Sydney 100",
+        "model": "Spatial-feature MLP",
+        "seed": 123,
+        "split_seed": 42,
+        "MAE": 16066.4384765625,
+        "RMSE": 31242.88847081844,
+        "NMAE": 0.0022468181807971514,
+        "R2": 0.9077111482620239,
+        "inference_ms_per_sample": 0.0006646867088603896,
+        "best_epoch": 87,
+        "result_file": "results/spatial/WEC_Sydney_100_spatial_mlp_seed123_metrics.json"
+      }
+    ],
+    "log_file": "dashboard_runs/run_20261019_050511_46c465c45468.log",
+    "checkpoint_paths": [
+      "models/spatial/WEC_Sydney_100_spatial_mlp_seed123_best.pt"
+    ],
+    "config": {
+      "dataset": "Sydney 100",
+      "model": "Spatial-feature MLP",
+      "training_seed": 123,
+      "split_seed": 42,
+      "epochs": 100,
+      "notes": "",
+      "inputs_policy": {
+        "coordinate_only_and_spatial_only": true,
+        "exclude_individual_power_columns": true,
+        "exclude_qW": true
+      },
+      "execution_status": "configuration_only_backend_not_connected",
+      "requested_at": "2026-10-18T18:35:10.316Z"
+    }
+  },
+  {
+    "run_id": "42af14fdc988",
+    "started_at": "2026-10-19T05:05:26+10:30",
+    "finished_at": "2026-10-19T05:05:50+10:30",
+    "status": "completed",
+    "returncode": 0,
+    "dataset": "Sydney 100",
+    "model": "GNN",
+    "training_seed": 21,
+    "split_seed": 42,
+    "epochs_requested": 100,
+    "notes": "",
+    "metrics": [
+      {
+        "dataset": "Sydney 100",
+        "model": "GNN",
+        "seed": 21,
+        "split_seed": 42,
+        "MAE": 18246.869140625,
+        "RMSE": 30230.287329100927,
+        "NMAE": 0.002551741469497996,
+        "R2": 0.913596510887146,
+        "inference_ms_per_sample": 0.05508636708861222,
+        "best_epoch": 93,
+        "result_file": "results/gnn/WEC_Sydney_100_gnn_seed21_metrics.json"
+      }
+    ],
+    "log_file": "dashboard_runs/run_20261019_050526_42af14fdc988.log",
+    "checkpoint_paths": [
+      "models/gnn/WEC_Sydney_100_gnn_seed21_best.pt"
+    ],
+    "config": {
+      "dataset": "Sydney 100",
+      "model": "GNN",
+      "training_seed": 21,
+      "split_seed": 42,
+      "epochs": 100,
+      "notes": "",
+      "inputs_policy": {
+        "coordinate_only_and_spatial_only": true,
+        "exclude_individual_power_columns": true,
+        "exclude_qW": true
+      },
+      "execution_status": "configuration_only_backend_not_connected",
+      "requested_at": "2026-10-18T18:35:25.034Z"
+    }
+  },
+  {
+    "run_id": "502d613722af",
+    "started_at": "2026-10-19T05:06:05+10:30",
+    "finished_at": "2026-10-19T05:06:29+10:30",
+    "status": "completed",
+    "returncode": 0,
+    "dataset": "Sydney 100",
+    "model": "GNN",
+    "training_seed": 42,
+    "split_seed": 42,
+    "epochs_requested": 100,
+    "notes": "",
+    "metrics": [
+      {
+        "dataset": "Sydney 100",
+        "model": "GNN",
+        "seed": 42,
+        "split_seed": 42,
+        "MAE": 17888.1171875,
+        "RMSE": 33088.998050711656,
+        "NMAE": 0.002501571644253055,
+        "R2": 0.8964824080467224,
+        "inference_ms_per_sample": 0.05732173101265173,
+        "best_epoch": 73,
+        "result_file": "results/gnn/WEC_Sydney_100_gnn_seed42_metrics.json"
+      }
+    ],
+    "log_file": "dashboard_runs/run_20261019_050605_502d613722af.log",
+    "checkpoint_paths": [
+      "models/gnn/WEC_Sydney_100_gnn_seed42_best.pt"
+    ],
+    "config": {
+      "dataset": "Sydney 100",
+      "model": "GNN",
+      "training_seed": 42,
+      "split_seed": 42,
+      "epochs": 100,
+      "notes": "",
+      "inputs_policy": {
+        "coordinate_only_and_spatial_only": true,
+        "exclude_individual_power_columns": true,
+        "exclude_qW": true
+      },
+      "execution_status": "configuration_only_backend_not_connected",
+      "requested_at": "2026-10-18T18:36:03.748Z"
+    }
+  },
+  {
+    "run_id": "ae2eb2d01f64",
+    "started_at": "2026-10-19T05:06:50+10:30",
+    "finished_at": "2026-10-19T05:07:12+10:30",
+    "status": "completed",
+    "returncode": 0,
+    "dataset": "Sydney 100",
+    "model": "GNN",
+    "training_seed": 123,
+    "split_seed": 42,
+    "epochs_requested": 100,
+    "notes": "",
+    "metrics": [
+      {
+        "dataset": "Sydney 100",
+        "model": "GNN",
+        "seed": 123,
+        "split_seed": 42,
+        "MAE": 20491.734375,
+        "RMSE": 37078.740863195446,
+        "NMAE": 0.0028656756391268806,
+        "R2": 0.870013952255249,
+        "inference_ms_per_sample": 0.056061838607587386,
+        "best_epoch": 61,
+        "result_file": "results/gnn/WEC_Sydney_100_gnn_seed123_metrics.json"
+      }
+    ],
+    "log_file": "dashboard_runs/run_20261019_050650_ae2eb2d01f64.log",
+    "checkpoint_paths": [
+      "models/gnn/WEC_Sydney_100_gnn_seed123_best.pt"
+    ],
+    "config": {
+      "dataset": "Sydney 100",
+      "model": "GNN",
+      "training_seed": 123,
+      "split_seed": 42,
+      "epochs": 100,
+      "notes": "",
+      "inputs_policy": {
+        "coordinate_only_and_spatial_only": true,
+        "exclude_individual_power_columns": true,
+        "exclude_qW": true
+      },
+      "execution_status": "configuration_only_backend_not_connected",
+      "requested_at": "2026-10-18T18:36:48.664Z"
+    }
+  },
+  {
+    "run_id": "fecfd74f3a45",
+    "started_at": "2026-10-19T05:57:09+10:30",
+    "finished_at": "2026-10-19T05:57:13+10:30",
+    "status": "completed",
+    "returncode": 0,
+    "dataset": "Sydney 49",
+    "model": "Spatial-feature MLP",
+    "training_seed": 21,
+    "split_seed": 42,
+    "epochs_requested": 3,
+    "notes": "Dashboard integration test",
+    "metrics": [
+      {
+        "dataset": "Sydney 49",
+        "model": "Spatial-feature MLP",
+        "seed": 21,
+        "split_seed": 42,
+        "MAE": 6852.4892578125,
+        "RMSE": 9364.687715028194,
+        "NMAE": 0.0017000418735204077,
+        "R2": 0.9816204309463501,
+        "inference_ms_per_sample": 0.00028582314335054806,
+        "best_epoch": 3,
+        "result_file": "results/spatial/WEC_Sydney_49_spatial_mlp_seed21_metrics.json"
+      }
+    ],
+    "log_file": "dashboard_runs/run_20261019_055709_fecfd74f3a45.log",
+    "checkpoint_paths": [
+      "models/spatial/WEC_Sydney_49_spatial_mlp_seed21_best.pt"
+    ],
+    "config": {
+      "dataset": "Sydney 49",
+      "model": "Spatial-feature MLP",
+      "training_seed": 21,
+      "split_seed": 42,
+      "epochs": 3,
+      "notes": "Dashboard integration test",
+      "inputs_policy": {
+        "coordinate_only_and_spatial_only": true,
+        "exclude_individual_power_columns": true,
+        "exclude_qW": true
+      },
+      "execution_status": "configuration_only_backend_not_connected",
+      "requested_at": "2026-10-18T19:27:07.234Z"
+    }
+  },
+  {
+    "run_id": "d5c0e98dd459",
+    "started_at": "2026-10-21T08:32:19+10:30",
+    "finished_at": "2026-10-21T08:32:34+10:30",
+    "status": "completed",
+    "returncode": 0,
+    "dataset": "Perth 49",
+    "model": "Coordinate MLP",
+    "training_seed": 21,
+    "split_seed": 42,
+    "epochs_requested": 100,
+    "notes": "",
+    "metrics": [
+      {
+        "dataset": "Perth 49",
+        "model": "Coordinate MLP",
+        "seed": 21,
+        "split_seed": 42,
+        "MAE": 15897.1455078125,
+        "RMSE": 27514.302898674356,
+        "NMAE": 0.004042078089633412,
+        "R2": 0.9451532959938049,
+        "inference_ms_per_sample": 0.0002866278504671265,
+        "best_epoch": 72,
+        "result_file": "results/grouped/WEC_Perth_49_coordinate_mlp_grouped_seed21_metrics.json"
+      }
+    ],
+    "log_file": "dashboard_runs/run_20261021_083219_d5c0e98dd459.log",
+    "checkpoint_paths": [
+      "models/grouped/WEC_Perth_49_coordinate_mlp_grouped_seed21.pt"
+    ],
+    "config": {
+      "dataset": "Perth 49",
+      "model": "Coordinate MLP",
+      "training_seed": 21,
+      "split_seed": 42,
+      "epochs": 100,
+      "notes": "",
+      "inputs_policy": {
+        "coordinate_only_and_spatial_only": true,
+        "exclude_individual_power_columns": true,
+        "exclude_qW": true
+      },
+      "execution_status": "configuration_only_backend_not_connected",
+      "requested_at": "2026-10-20T22:02:17.954Z"
+    }
+  },
+  {
+    "run_id": "593f56d3ff62",
+    "started_at": "2026-11-10T11:34:29+10:30",
+    "finished_at": "2026-11-10T11:35:00+10:30",
+    "status": "completed",
+    "returncode": 0,
+    "dataset": "Perth 49",
+    "model": "Coordinate MLP",
+    "training_seed": 21,
+    "split_seed": 42,
+    "epochs_requested": 100,
+    "notes": "",
+    "metrics": [
+      {
+        "dataset": "Perth 49",
+        "model": "Coordinate MLP",
+        "seed": 21,
+        "split_seed": 42,
+        "MAE": 15897.1455078125,
+        "RMSE": 27514.302898674356,
+        "NMAE": 0.004042078089633412,
+        "R2": 0.9451532959938049,
+        "inference_ms_per_sample": 0.0007985280373831701,
+        "best_epoch": 72,
+        "result_file": "results/grouped/WEC_Perth_49_coordinate_mlp_grouped_seed21_metrics.json"
+      }
+    ],
+    "log_file": "dashboard_runs/run_20261110_113429_593f56d3ff62.log",
+    "checkpoint_paths": [
+      "models/grouped/WEC_Perth_49_coordinate_mlp_grouped_seed21.pt"
+    ],
+    "config": {
+      "dataset": "Perth 49",
+      "model": "Coordinate MLP",
+      "training_seed": 21,
+      "split_seed": 42,
+      "epochs": 100,
+      "notes": "",
+      "inputs_policy": {
+        "coordinate_only_and_spatial_only": true,
+        "exclude_individual_power_columns": true,
+        "exclude_qW": true
+      },
+      "execution_status": "configuration_only_backend_not_connected",
+      "requested_at": "2026-11-10T01:04:27.488Z"
+    }
+  }
+]

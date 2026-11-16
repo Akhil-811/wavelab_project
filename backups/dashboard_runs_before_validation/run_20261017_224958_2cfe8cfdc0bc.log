@@ -1,0 +1,49 @@
+
+$ /Users/eruvaakhil/Downloads/wavelab_connected_project/.venv/bin/python -m src.train_mlp_grouped --data data/raw/WEC_Perth_100.csv --seed 123 --split-seed 42 --epochs 100 --output-dir results/grouped --model-dir models/grouped
+
+Device: cpu
+Dataset: data/raw/WEC_Perth_100.csv
+Rows: 7,277
+Unique layouts: 2,737
+Train rows: 5,019
+Validation rows: 1,027
+Test rows: 1,231
+Input dimensions: 200
+Target: Total_Power
+Inputs: coordinates only
+Epoch 001 | train MSE(scaled)=0.48355 | val MAE=72025.6 | best=72025.6
+Epoch 010 | train MSE(scaled)=0.04695 | val MAE=34253.8 | best=33591.7
+Epoch 020 | train MSE(scaled)=0.02790 | val MAE=33111.7 | best=30687.9
+Epoch 030 | train MSE(scaled)=0.02134 | val MAE=33009.9 | best=30687.9
+Early stopping at epoch 39; best epoch was 14.
+
+GROUPED TEST RESULTS
+dataset: data/raw/WEC_Perth_100.csv
+rows: 7277
+unique_layouts: 2737
+wec_count: 100
+input_dimensions: 200
+target_column: Total_Power
+split_method: layout_grouped
+train_rows: 5019
+validation_rows: 1027
+test_rows: 1231
+train_layouts: 1915
+validation_layouts: 411
+test_layouts: 411
+seed: 123
+split_seed: 42
+device: cpu
+best_epoch: 14
+best_validation_mae: 30687.919921875
+test_mae: 32479.837890625
+test_rmse: 59558.011518182844
+test_nmae: 0.004564670857990245
+test_r2: 0.8989915251731873
+test_inference_total_seconds: 0.0005108329999998773
+test_inference_ms_per_sample: 0.00041497400487398644
+
+Results saved to: /Users/eruvaakhil/Downloads/wavelab_connected_project/results/grouped
+Checkpoint saved to: /Users/eruvaakhil/Downloads/wavelab_connected_project/models/grouped/WEC_Perth_100_coordinate_mlp_grouped_seed123.pt
+
+Run finished with exit code 0.

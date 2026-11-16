@@ -1,0 +1,51 @@
+
+$ /Users/eruvaakhil/Downloads/wavelab_connected_project/.venv/bin/python -m src.train_spatial_mlp --data data/raw/WEC_Perth_49.csv --seed 123 --split-seed 42 --epochs 100 --output-dir results/spatial --model-dir models/spatial
+
+Device: cpu
+Building spatial features...
+Dataset: data/raw/WEC_Perth_49.csv
+Rows: 36,043
+Unique layouts: 10,218
+WEC count: 49
+Coordinate input dimensions: 98
+Spatial-feature input dimensions: 252
+Target: Total_Power
+Train/validation/test rows: 25372/5321/5350
+Epoch 001 | train MSE(scaled)=0.14739 | val MAE=17295.1 | best=17295.1
+Epoch 010 | train MSE(scaled)=0.02680 | val MAE=14801.4 | best=13131.1
+Epoch 020 | train MSE(scaled)=0.02145 | val MAE=11866.1 | best=11422.8
+Epoch 030 | train MSE(scaled)=0.01985 | val MAE=10996.7 | best=10797.2
+Epoch 040 | train MSE(scaled)=0.01997 | val MAE=10773.2 | best=10773.2
+Epoch 050 | train MSE(scaled)=0.01780 | val MAE=11077.9 | best=10239.7
+Epoch 060 | train MSE(scaled)=0.01784 | val MAE=11600.7 | best=10239.7
+Epoch 070 | train MSE(scaled)=0.01719 | val MAE=12218 | best=10136.6
+Epoch 080 | train MSE(scaled)=0.01699 | val MAE=10806.5 | best=10136.6
+Early stopping at epoch 89; best epoch was 64.
+
+SPATIAL-FEATURE MLP TEST RESULTS
+dataset: data/raw/WEC_Perth_49.csv
+rows: 36043
+unique_layouts: 10218
+wec_count: 49
+coordinate_input_dimensions: 98
+spatial_feature_input_dimensions: 252
+target_column: Total_Power
+split_method: layout_grouped
+train_rows: 25372
+validation_rows: 5321
+test_rows: 5350
+seed: 123
+split_seed: 42
+best_epoch: 64
+best_validation_mae: 10136.556640625
+test_mae: 11927.501953125
+test_rmse: 21457.02010997799
+test_nmae: 0.0030327390716209405
+test_r2: 0.9666441082954407
+test_inference_total_seconds: 0.0023578749999995097
+test_inference_ms_per_sample: 0.0004407242990653289
+
+Results saved to: /Users/eruvaakhil/Downloads/wavelab_connected_project/results/spatial
+Checkpoint saved to: /Users/eruvaakhil/Downloads/wavelab_connected_project/models/spatial/WEC_Perth_49_spatial_mlp_seed123_best.pt
+
+Run finished with exit code 0.

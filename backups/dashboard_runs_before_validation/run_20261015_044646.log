@@ -1,0 +1,49 @@
+
+$ /Users/eruvaakhil/Downloads/wavelab_connected_project/.venv/bin/python -m src.train_spatial_mlp --data data/raw/WEC_Perth_49.csv --seed 21 --split-seed 42 --epochs 100 --output-dir results/spatial --model-dir models/spatial
+
+Device: cpu
+Building spatial features...
+Dataset: data/raw/WEC_Perth_49.csv
+Rows: 36,043
+Unique layouts: 10,218
+WEC count: 49
+Coordinate input dimensions: 98
+Spatial-feature input dimensions: 252
+Target: Total_Power
+Train/validation/test rows: 25372/5321/5350
+Epoch 001 | train MSE(scaled)=0.15762 | val MAE=18214.2 | best=18214.2
+Epoch 010 | train MSE(scaled)=0.02775 | val MAE=12309.1 | best=11731.5
+Epoch 020 | train MSE(scaled)=0.02146 | val MAE=11323 | best=11244.9
+Epoch 030 | train MSE(scaled)=0.02023 | val MAE=11664.1 | best=11117.2
+Epoch 040 | train MSE(scaled)=0.01861 | val MAE=11304.8 | best=10648.1
+Epoch 050 | train MSE(scaled)=0.01800 | val MAE=10983.2 | best=10648.1
+Epoch 060 | train MSE(scaled)=0.01768 | val MAE=10910.1 | best=10648.1
+Early stopping at epoch 61; best epoch was 36.
+
+SPATIAL-FEATURE MLP TEST RESULTS
+dataset: data/raw/WEC_Perth_49.csv
+rows: 36043
+unique_layouts: 10218
+wec_count: 49
+coordinate_input_dimensions: 98
+spatial_feature_input_dimensions: 252
+target_column: Total_Power
+split_method: layout_grouped
+train_rows: 25372
+validation_rows: 5321
+test_rows: 5350
+seed: 21
+split_seed: 42
+best_epoch: 36
+best_validation_mae: 10648.1494140625
+test_mae: 13040.505859375
+test_rmse: 22356.658068682806
+test_nmae: 0.0033157363368166706
+test_r2: 0.9637884497642517
+test_inference_total_seconds: 0.0024691670000009935
+test_inference_ms_per_sample: 0.00046152654205626047
+
+Results saved to: /Users/eruvaakhil/Downloads/wavelab_connected_project/results/spatial
+Checkpoint saved to: /Users/eruvaakhil/Downloads/wavelab_connected_project/models/spatial/WEC_Perth_49_spatial_mlp_seed21_best.pt
+
+Run finished with exit code 0.

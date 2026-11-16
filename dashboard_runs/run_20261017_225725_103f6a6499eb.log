@@ -1,0 +1,54 @@
+
+$ /Users/eruvaakhil/Downloads/wavelab_connected_project/.venv/bin/python -m src.train_mlp_grouped --data data/raw/WEC_Sydney_49.csv --seed 42 --split-seed 42 --epochs 100 --output-dir results/grouped --model-dir models/grouped
+
+Device: cpu
+Dataset: data/raw/WEC_Sydney_49.csv
+Rows: 17,964
+Unique layouts: 4,816
+Train rows: 12,728
+Validation rows: 2,341
+Test rows: 2,895
+Input dimensions: 98
+Target: Total_Power
+Inputs: coordinates only
+Epoch 001 | train MSE(scaled)=0.29630 | val MAE=15649.6 | best=15649.6
+Epoch 010 | train MSE(scaled)=0.02566 | val MAE=7489.87 | best=7489.87
+Epoch 020 | train MSE(scaled)=0.01871 | val MAE=7755.9 | best=6733.04
+Epoch 030 | train MSE(scaled)=0.01696 | val MAE=6641.17 | best=6284.18
+Epoch 040 | train MSE(scaled)=0.01578 | val MAE=6507.31 | best=6284.18
+Epoch 050 | train MSE(scaled)=0.01243 | val MAE=6371.19 | best=6284.18
+Epoch 060 | train MSE(scaled)=0.01267 | val MAE=6738.57 | best=6051.68
+Epoch 070 | train MSE(scaled)=0.01328 | val MAE=6815.68 | best=6051.68
+Epoch 080 | train MSE(scaled)=0.01089 | val MAE=6811.58 | best=6051.68
+Early stopping at epoch 81; best epoch was 56.
+
+GROUPED TEST RESULTS
+dataset: data/raw/WEC_Sydney_49.csv
+rows: 17964
+unique_layouts: 4816
+wec_count: 49
+input_dimensions: 98
+target_column: Total_Power
+split_method: layout_grouped
+train_rows: 12728
+validation_rows: 2341
+test_rows: 2895
+train_layouts: 3370
+validation_layouts: 723
+test_layouts: 723
+seed: 42
+split_seed: 42
+device: cpu
+best_epoch: 56
+best_validation_mae: 6051.68408203125
+test_mae: 6046.10009765625
+test_rmse: 9113.037254395485
+test_nmae: 0.0014999838672921416
+test_r2: 0.9825949668884277
+test_inference_total_seconds: 0.0014747090000000185
+test_inference_ms_per_sample: 0.000509398618307433
+
+Results saved to: /Users/eruvaakhil/Downloads/wavelab_connected_project/results/grouped
+Checkpoint saved to: /Users/eruvaakhil/Downloads/wavelab_connected_project/models/grouped/WEC_Sydney_49_coordinate_mlp_grouped_seed42.pt
+
+Run finished with exit code 0.

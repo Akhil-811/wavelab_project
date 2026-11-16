@@ -1,0 +1,23 @@
+{
+  "dataset": "data/raw/WEC_Perth_100.csv",
+  "rows": 7277,
+  "unique_layouts": 2737,
+  "wec_count": 100,
+  "coordinate_input_dimensions": 200,
+  "spatial_feature_input_dimensions": 507,
+  "target_column": "Total_Power",
+  "split_method": "layout_grouped",
+  "train_rows": 5019,
+  "validation_rows": 1027,
+  "test_rows": 1231,
+  "seed": 42,
+  "split_seed": 42,
+  "best_epoch": 95,
+  "best_validation_mae": 22339.361328125,
+  "test_mae": 22828.54296875,
+  "test_rmse": 39176.03675718104,
+  "test_nmae": 0.0032082914074490795,
+  "test_r2": 0.9562962651252747,
+  "test_inference_total_seconds": 0.0015287499999985243,
+  "test_inference_ms_per_sample": 0.0012418765231507103
+}

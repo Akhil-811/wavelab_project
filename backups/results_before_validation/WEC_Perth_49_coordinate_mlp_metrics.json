@@ -1,0 +1,23 @@
+{
+  "dataset": "data/raw/WEC_Perth_49.csv",
+  "rows": 36043,
+  "wec_count": 49,
+  "input_dimensions": 98,
+  "target_column": "Total_Power",
+  "split": {
+    "train": 25229,
+    "validation": 5407,
+    "test": 5407
+  },
+  "seed": 42,
+  "device": "cpu",
+  "best_epoch": 135,
+  "best_validation_mae": 9887.6435546875,
+  "test_mae": 9616.1748046875,
+  "test_rmse": 20912.793404994944,
+  "test_nmae_mae_over_mean_abs_target": 0.002441663943590742,
+  "test_r2": 0.9702110886573792,
+  "test_inference_total_seconds": 0.0013440410000029601,
+  "test_inference_ms_per_sample": 0.00024857425559514704,
+  "test_target_mean": 3938369.5
+}

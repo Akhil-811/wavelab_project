@@ -1,0 +1,13 @@
+file,model,dataset,seed,test_mae,note
+results/grouped/WEC_Perth_100_coordinate_mlp_grouped_metrics.json,Coordinate MLP,WEC_Perth_100,42,34669.95703125,Un-suffixed duplicate/alternate artifact; excluded from canonical seeded summary.
+results/grouped/WEC_Perth_49_coordinate_mlp_grouped_metrics.json,Coordinate MLP,WEC_Perth_49,42,16738.419921875,Un-suffixed duplicate/alternate artifact; excluded from canonical seeded summary.
+results/grouped/WEC_Sydney_100_coordinate_mlp_grouped_metrics.json,Coordinate MLP,WEC_Sydney_100,42,24623.31640625,Un-suffixed duplicate/alternate artifact; excluded from canonical seeded summary.
+results/grouped/WEC_Sydney_49_coordinate_mlp_grouped_metrics.json,Coordinate MLP,WEC_Sydney_49,42,6046.10009765625,Un-suffixed duplicate/alternate artifact; excluded from canonical seeded summary.
+results/spatial/WEC_Perth_100_spatial_mlp_metrics.json,Spatial-feature MLP,WEC_Perth_100,42,22828.54296875,Un-suffixed duplicate/alternate artifact; excluded from canonical seeded summary.
+results/spatial/WEC_Perth_49_spatial_mlp_metrics.json,Spatial-feature MLP,WEC_Perth_49,42,11962.306640625,Un-suffixed duplicate/alternate artifact; excluded from canonical seeded summary.
+results/spatial/WEC_Sydney_100_spatial_mlp_metrics.json,Spatial-feature MLP,WEC_Sydney_100,42,18257.0703125,Un-suffixed duplicate/alternate artifact; excluded from canonical seeded summary.
+results/spatial/WEC_Sydney_49_spatial_mlp_metrics.json,Spatial-feature MLP,WEC_Sydney_49,42,4605.61865234375,Un-suffixed duplicate/alternate artifact; excluded from canonical seeded summary.
+results/gnn/WEC_Perth_100_gnn_metrics.json,GNN,WEC_Perth_100,42,19287.810546875,Un-suffixed duplicate/alternate artifact; excluded from canonical seeded summary.
+results/gnn/WEC_Perth_49_gnn_metrics.json,GNN,WEC_Perth_49,42,14035.5234375,Un-suffixed duplicate/alternate artifact; excluded from canonical seeded summary.
+results/gnn/WEC_Sydney_100_gnn_metrics.json,GNN,WEC_Sydney_100,42,17888.1171875,Un-suffixed duplicate/alternate artifact; excluded from canonical seeded summary.
+results/gnn/WEC_Sydney_49_gnn_metrics.json,GNN,WEC_Sydney_49,42,5282.736328125,Un-suffixed duplicate/alternate artifact; excluded from canonical seeded summary.

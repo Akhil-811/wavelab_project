@@ -1,0 +1,44 @@
+
+$ /Users/eruvaakhil/Downloads/wavelab_connected_project/.venv/bin/python -m src.train_gnn --data data/raw/WEC_Perth_49.csv --seed 21 --split-seed 42 --epochs 5 --output-dir results/gnn --model-dir models/gnn
+
+Device: cpu
+Dataset: data/raw/WEC_Perth_49.csv
+Rows: 36,043
+Unique layouts: 10,218
+WEC count / graph nodes: 49
+Node features: x and y coordinates
+Graph: symmetrized 8-nearest-neighbour connections
+Train/validation/test rows: 25372/5321/5350
+Epoch 001 | train MSE(scaled)=0.27535 | val MAE=40811.2 | best=40811.2
+
+GNN TEST RESULTS
+dataset: data/raw/WEC_Perth_49.csv
+rows: 36043
+unique_layouts: 10218
+wec_count: 49
+target_column: Total_Power
+model: coordinate_graph_neural_network
+graph: symmetrized_8_nearest_neighbours
+split_method: layout_grouped
+train_rows: 25372
+validation_rows: 5321
+test_rows: 5350
+train_layouts: 7152
+validation_layouts: 1533
+test_layouts: 1533
+seed: 21
+split_seed: 42
+device: cpu
+best_epoch: 5
+best_validation_mae: 27057.91015625
+test_mae: 28069.275390625
+test_rmse: 38952.27685257949
+test_nmae: 0.007137017333871272
+test_r2: 0.8900743126869202
+test_inference_total_seconds: 0.16777866600000024
+test_inference_ms_per_sample: 0.03136049831775706
+
+Results saved to: /Users/eruvaakhil/Downloads/wavelab_connected_project/results/gnn
+Checkpoint saved to: /Users/eruvaakhil/Downloads/wavelab_connected_project/models/gnn/WEC_Perth_49_gnn_seed21_best.pt
+
+Run finished with exit code 0.

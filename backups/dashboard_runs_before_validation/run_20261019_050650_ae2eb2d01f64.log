@@ -1,0 +1,53 @@
+
+$ /Users/eruvaakhil/Downloads/wavelab_connected_project/.venv/bin/python -m src.train_gnn --data data/raw/WEC_Sydney_100.csv --seed 123 --split-seed 42 --epochs 100 --output-dir results/gnn --model-dir models/gnn
+
+Device: cpu
+Dataset: data/raw/WEC_Sydney_100.csv
+Rows: 2,318
+Unique layouts: 1,234
+WEC count / graph nodes: 100
+Node features: x and y coordinates
+Graph: symmetrized 8-nearest-neighbour connections
+Train/validation/test rows: 1610/392/316
+Epoch 001 | train MSE(scaled)=0.97367 | val MAE=71145.2 | best=71145.2
+Epoch 010 | train MSE(scaled)=0.16257 | val MAE=30473.3 | best=25515
+Epoch 020 | train MSE(scaled)=0.13114 | val MAE=21660.8 | best=17768.1
+Epoch 030 | train MSE(scaled)=0.11292 | val MAE=28390.3 | best=17247.3
+Epoch 040 | train MSE(scaled)=0.08808 | val MAE=17900.3 | best=17011
+Epoch 050 | train MSE(scaled)=0.09224 | val MAE=19793.7 | best=15199.4
+Epoch 060 | train MSE(scaled)=0.06772 | val MAE=14877.5 | best=14877.5
+Epoch 070 | train MSE(scaled)=0.05950 | val MAE=33519.1 | best=14330.5
+Epoch 080 | train MSE(scaled)=0.06988 | val MAE=19075.9 | best=14330.5
+Early stopping at epoch 86; best epoch was 61.
+
+GNN TEST RESULTS
+dataset: data/raw/WEC_Sydney_100.csv
+rows: 2318
+unique_layouts: 1234
+wec_count: 100
+target_column: Total_Power
+model: coordinate_graph_neural_network
+graph: symmetrized_8_nearest_neighbours
+split_method: layout_grouped
+train_rows: 1610
+validation_rows: 392
+test_rows: 316
+train_layouts: 863
+validation_layouts: 185
+test_layouts: 186
+seed: 123
+split_seed: 42
+device: cpu
+best_epoch: 61
+best_validation_mae: 14330.4833984375
+test_mae: 20491.734375
+test_rmse: 37078.740863195446
+test_nmae: 0.0028656756391268806
+test_r2: 0.870013952255249
+test_inference_total_seconds: 0.017715540999997614
+test_inference_ms_per_sample: 0.056061838607587386
+
+Results saved to: /Users/eruvaakhil/Downloads/wavelab_connected_project/results/gnn
+Checkpoint saved to: /Users/eruvaakhil/Downloads/wavelab_connected_project/models/gnn/WEC_Sydney_100_gnn_seed123_best.pt
+
+Run finished with exit code 0.

@@ -1,0 +1,42 @@
+
+$ /Users/eruvaakhil/Downloads/wavelab_connected_project/.venv/bin/python -m src.train_spatial_mlp --data data/raw/WEC_Sydney_49.csv --seed 21 --split-seed 42 --epochs 3 --output-dir results/spatial --model-dir models/spatial
+
+Device: cpu
+Building spatial features...
+Dataset: data/raw/WEC_Sydney_49.csv
+Rows: 17,964
+Unique layouts: 4,816
+WEC count: 49
+Coordinate input dimensions: 98
+Spatial-feature input dimensions: 252
+Target: Total_Power
+Train/validation/test rows: 12728/2341/2895
+Epoch 001 | train MSE(scaled)=0.18399 | val MAE=10401.7 | best=10401.7
+
+SPATIAL-FEATURE MLP TEST RESULTS
+dataset: data/raw/WEC_Sydney_49.csv
+rows: 17964
+unique_layouts: 4816
+wec_count: 49
+coordinate_input_dimensions: 98
+spatial_feature_input_dimensions: 252
+target_column: Total_Power
+split_method: layout_grouped
+train_rows: 12728
+validation_rows: 2341
+test_rows: 2895
+seed: 21
+split_seed: 42
+best_epoch: 3
+best_validation_mae: 7155.58544921875
+test_mae: 6852.4892578125
+test_rmse: 9364.687715028194
+test_nmae: 0.0017000418735204077
+test_r2: 0.9816204309463501
+test_inference_total_seconds: 0.0008274579999998366
+test_inference_ms_per_sample: 0.00028582314335054806
+
+Results saved to: /Users/eruvaakhil/Downloads/wavelab_connected_project/results/spatial
+Checkpoint saved to: /Users/eruvaakhil/Downloads/wavelab_connected_project/models/spatial/WEC_Sydney_49_spatial_mlp_seed21_best.pt
+
+Run finished with exit code 0.

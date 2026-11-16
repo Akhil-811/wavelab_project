@@ -1,0 +1,55 @@
+
+$ /Users/eruvaakhil/Downloads/wavelab_connected_project/.venv/bin/python -m src.train_mlp_grouped --data data/raw/WEC_Sydney_49.csv --seed 123 --split-seed 42 --epochs 100 --output-dir results/grouped --model-dir models/grouped
+
+Device: cpu
+Dataset: data/raw/WEC_Sydney_49.csv
+Rows: 17,964
+Unique layouts: 4,816
+Train rows: 12,728
+Validation rows: 2,341
+Test rows: 2,895
+Input dimensions: 98
+Target: Total_Power
+Inputs: coordinates only
+Epoch 001 | train MSE(scaled)=0.26732 | val MAE=14602.6 | best=14602.6
+Epoch 010 | train MSE(scaled)=0.02475 | val MAE=7545.06 | best=7545.06
+Epoch 020 | train MSE(scaled)=0.01937 | val MAE=7053.07 | best=6893.79
+Epoch 030 | train MSE(scaled)=0.01626 | val MAE=7108.97 | best=6299.8
+Epoch 040 | train MSE(scaled)=0.01411 | val MAE=6720.52 | best=5930.92
+Epoch 050 | train MSE(scaled)=0.01319 | val MAE=6143.38 | best=5930.92
+Epoch 060 | train MSE(scaled)=0.01228 | val MAE=5903.72 | best=5835.35
+Epoch 070 | train MSE(scaled)=0.01250 | val MAE=6145.82 | best=5835.35
+Epoch 080 | train MSE(scaled)=0.01145 | val MAE=5943.05 | best=5797.73
+Epoch 090 | train MSE(scaled)=0.01071 | val MAE=5795.85 | best=5795.85
+Epoch 100 | train MSE(scaled)=0.01127 | val MAE=6359.93 | best=5723.96
+
+GROUPED TEST RESULTS
+dataset: data/raw/WEC_Sydney_49.csv
+rows: 17964
+unique_layouts: 4816
+wec_count: 49
+input_dimensions: 98
+target_column: Total_Power
+split_method: layout_grouped
+train_rows: 12728
+validation_rows: 2341
+test_rows: 2895
+train_layouts: 3370
+validation_layouts: 723
+test_layouts: 723
+seed: 123
+split_seed: 42
+device: cpu
+best_epoch: 94
+best_validation_mae: 5723.9619140625
+test_mae: 5780.56494140625
+test_rmse: 9040.036725589116
+test_nmae: 0.0014341069476016626
+test_r2: 0.982872724533081
+test_inference_total_seconds: 0.001195416999999921
+test_inference_ms_per_sample: 0.0004129246977547222
+
+Results saved to: /Users/eruvaakhil/Downloads/wavelab_connected_project/results/grouped
+Checkpoint saved to: /Users/eruvaakhil/Downloads/wavelab_connected_project/models/grouped/WEC_Sydney_49_coordinate_mlp_grouped_seed123.pt
+
+Run finished with exit code 0.

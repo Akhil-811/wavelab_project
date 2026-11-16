@@ -1,0 +1,52 @@
+
+$ /Users/eruvaakhil/Downloads/wavelab_connected_project/.venv/bin/python -m src.train_spatial_mlp --data data/raw/WEC_Sydney_100.csv --seed 123 --split-seed 42 --epochs 100 --output-dir results/spatial --model-dir models/spatial
+
+Device: cpu
+Building spatial features...
+Dataset: data/raw/WEC_Sydney_100.csv
+Rows: 2,318
+Unique layouts: 1,234
+WEC count: 100
+Coordinate input dimensions: 200
+Spatial-feature input dimensions: 507
+Target: Total_Power
+Train/validation/test rows: 1610/392/316
+Epoch 001 | train MSE(scaled)=0.71206 | val MAE=39213.9 | best=39213.9
+Epoch 010 | train MSE(scaled)=0.03313 | val MAE=12907.9 | best=12907.9
+Epoch 020 | train MSE(scaled)=0.01834 | val MAE=11692.8 | best=11590.5
+Epoch 030 | train MSE(scaled)=0.01751 | val MAE=12302.4 | best=11139.7
+Epoch 040 | train MSE(scaled)=0.01775 | val MAE=11895 | best=11139.7
+Epoch 050 | train MSE(scaled)=0.01850 | val MAE=11092.8 | best=11044.5
+Epoch 060 | train MSE(scaled)=0.01289 | val MAE=11476.4 | best=11044.5
+Epoch 070 | train MSE(scaled)=0.01306 | val MAE=12348.9 | best=10789.6
+Epoch 080 | train MSE(scaled)=0.01056 | val MAE=11894.8 | best=10789.6
+Epoch 090 | train MSE(scaled)=0.01185 | val MAE=11126.6 | best=10783.1
+Epoch 100 | train MSE(scaled)=0.00940 | val MAE=11963.7 | best=10783.1
+
+SPATIAL-FEATURE MLP TEST RESULTS
+dataset: data/raw/WEC_Sydney_100.csv
+rows: 2318
+unique_layouts: 1234
+wec_count: 100
+coordinate_input_dimensions: 200
+spatial_feature_input_dimensions: 507
+target_column: Total_Power
+split_method: layout_grouped
+train_rows: 1610
+validation_rows: 392
+test_rows: 316
+seed: 123
+split_seed: 42
+best_epoch: 87
+best_validation_mae: 10783.078125
+test_mae: 16066.4384765625
+test_rmse: 31242.88847081844
+test_nmae: 0.0022468181807971514
+test_r2: 0.9077111482620239
+test_inference_total_seconds: 0.00021004099999988313
+test_inference_ms_per_sample: 0.0006646867088603896
+
+Results saved to: /Users/eruvaakhil/Downloads/wavelab_connected_project/results/spatial
+Checkpoint saved to: /Users/eruvaakhil/Downloads/wavelab_connected_project/models/spatial/WEC_Sydney_100_spatial_mlp_seed123_best.pt
+
+Run finished with exit code 0.

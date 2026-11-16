@@ -1,0 +1,54 @@
+
+$ /Users/eruvaakhil/Downloads/wavelab_connected_project/.venv/bin/python -m src.train_gnn --data data/raw/WEC_Perth_100.csv --seed 123 --split-seed 42 --epochs 100 --output-dir results/gnn --model-dir models/gnn
+
+Device: cpu
+Dataset: data/raw/WEC_Perth_100.csv
+Rows: 7,277
+Unique layouts: 2,737
+WEC count / graph nodes: 100
+Node features: x and y coordinates
+Graph: symmetrized 8-nearest-neighbour connections
+Train/validation/test rows: 5019/1027/1231
+Epoch 001 | train MSE(scaled)=0.48115 | val MAE=62364.8 | best=62364.8
+Epoch 010 | train MSE(scaled)=0.08555 | val MAE=42375.3 | best=36696.8
+Epoch 020 | train MSE(scaled)=0.07040 | val MAE=34611.5 | best=32239.2
+Epoch 030 | train MSE(scaled)=0.05893 | val MAE=39383.6 | best=30755.2
+Epoch 040 | train MSE(scaled)=0.05105 | val MAE=34075 | best=27761.4
+Epoch 050 | train MSE(scaled)=0.05026 | val MAE=32445.5 | best=25296.3
+Epoch 060 | train MSE(scaled)=0.04668 | val MAE=30664.2 | best=25063.1
+Epoch 070 | train MSE(scaled)=0.03569 | val MAE=30434.7 | best=23469.8
+Epoch 080 | train MSE(scaled)=0.03775 | val MAE=31310.8 | best=23469.8
+Epoch 090 | train MSE(scaled)=0.03348 | val MAE=33781.1 | best=21561.3
+Epoch 100 | train MSE(scaled)=0.02942 | val MAE=22713.8 | best=21561.3
+
+GNN TEST RESULTS
+dataset: data/raw/WEC_Perth_100.csv
+rows: 7277
+unique_layouts: 2737
+wec_count: 100
+target_column: Total_Power
+model: coordinate_graph_neural_network
+graph: symmetrized_8_nearest_neighbours
+split_method: layout_grouped
+train_rows: 5019
+validation_rows: 1027
+test_rows: 1231
+train_layouts: 1915
+validation_layouts: 411
+test_layouts: 411
+seed: 123
+split_seed: 42
+device: cpu
+best_epoch: 82
+best_validation_mae: 21561.328125
+test_mae: 23592.380859375
+test_rmse: 34594.48094711063
+test_nmae: 0.003315640113169408
+test_r2: 0.9659206867218018
+test_inference_total_seconds: 0.12419854099999839
+test_inference_ms_per_sample: 0.10089239723801656
+
+Results saved to: /Users/eruvaakhil/Downloads/wavelab_connected_project/results/gnn
+Checkpoint saved to: /Users/eruvaakhil/Downloads/wavelab_connected_project/models/gnn/WEC_Perth_100_gnn_seed123_best.pt
+
+Run finished with exit code 0.

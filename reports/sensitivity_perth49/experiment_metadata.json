@@ -1,0 +1,23 @@
+{
+  "source_file": "data/raw/WEC_Perth_49.csv",
+  "source_sha256": "c43c3181039d8f54c8dd88d50260b7b677a7dcae96ad34711bc129d3f2fc45cf",
+  "source_rows": 36043,
+  "unique_exact_layouts": 10218,
+  "original_train_rows": 25372,
+  "original_validation_rows": 5321,
+  "original_test_rows": 5350,
+  "train_layouts": 7152,
+  "validation_layouts": 1533,
+  "test_layouts": 1533,
+  "seeds": [
+    21,
+    42,
+    123
+  ],
+  "split_seed": 42,
+  "max_epochs": 250,
+  "early_stopping_patience": 25,
+  "aggregation": "mean Total_Power per exact coordinate layout, after layout-level partition assignment",
+  "original_data_modified": false,
+  "caveat": "Aggregated model is also evaluated against original row-level test labels; layout-mean evaluation is secondary and answers a different target question."
+}
